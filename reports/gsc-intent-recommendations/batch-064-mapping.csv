@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/ve-may-bay-di-dai-bac-khu-hoi,retire_low_value,/tag/ve-may-bay-di-dai-bac-khu-hoi,"Tag mỏng, không có click và chỉ 1 impression; không giữ intent hữu ích để chuyển hướng."
+/tag/ve-may-bay-di-lao-gia-re,retire_low_value,/tag/ve-may-bay-di-lao-gia-re,"Tag mỏng, không có click và chỉ 1 impression; không giữ intent hữu ích để chuyển hướng."
+/tag/ve-may-bay-tphcm-di-melbourne,retire_low_value,/tag/ve-may-bay-tphcm-di-melbourne,"Tag mỏng, không có click và chỉ 1 impression; không giữ intent hữu ích để chuyển hướng."
+/tag/vietnam-airlines-km-ngay-black-friday,retire_low_value,/tag/vietnam-airlines-km-ngay-black-friday,"Tag mỏng, không có click và chỉ 1 impression; không giữ intent hữu ích để chuyển hướng."
+/tan-huong-uu-dai-ve-khu-hoi-tu-168-trieu-dong-du-lich-the-gioi-cung-qatar-airways,create_specific_landing,/tan-huong-uu-dai-ve-khu-hoi-tu-168-trieu-dong-du-lich-the-gioi-cung-qatar-airways,"Nhu cầu cụ thể về tuyến bay, hãng hoặc ưu đãi; chưa có route tương đương, nên giữ URL để phát triển nội dung."
+/ve-may-bay-di-ha-lan,create_specific_landing,/ve-may-bay-di-ha-lan,"Nhu cầu cụ thể về tuyến bay, hãng hoặc ưu đãi; chưa có route tương đương, nên giữ URL để phát triển nội dung."
+/air-asia-mo-ban-ve-di-thai-lan-cuoi-nam-chi-tu-36-usd-uu-dai,create_specific_landing,/air-asia-mo-ban-ve-di-thai-lan-cuoi-nam-chi-tu-36-usd-uu-dai,"Nhu cầu cụ thể về tuyến bay, hãng hoặc ưu đãi; chưa có route tương đương, nên giữ URL để phát triển nội dung."
+/bamboo-airways-uu-dai-kien-hanh-ly-10kg-gia-chi-8k,remap_existing,/mua-them-hanh-ly-bamboo-airways,Intent dịch vụ hành lý Bamboo tương đương; route đích hợp lệ và phù hợp hơn bài ưu đãi đã cũ.
+/chao-thang-6-bamboo-airways-khuyen-mai-dong-gia-chi-tu-6-000-vnd,create_specific_landing,/chao-thang-6-bamboo-airways-khuyen-mai-dong-gia-chi-tu-6-000-vnd,"Nhu cầu cụ thể về tuyến bay, hãng hoặc ưu đãi; chưa có route tương đương, nên giữ URL để phát triển nội dung."
+/chi-tu-129-usd-cung-air-asia-den-perth-quay-tung-nuoc-uc,create_specific_landing,/chi-tu-129-usd-cung-air-asia-den-perth-quay-tung-nuoc-uc,"Nhu cầu cụ thể về tuyến bay, hãng hoặc ưu đãi; chưa có route tương đương, nên giữ URL để phát triển nội dung."
+/khai-truong-duong-bay-moi-di-osaka-ve-jetstar-uu-dai-chi-tu-1280000d,create_specific_landing,/khai-truong-duong-bay-moi-di-osaka-ve-jetstar-uu-dai-chi-tu-1280000d,"Nhu cầu cụ thể về tuyến bay, hãng hoặc ưu đãi; chưa có route tương đương, nên giữ URL để phát triển nội dung."
+/luu-y-khi-di-may-bay-mua-cao-diem-tet-2019,create_specific_landing,/luu-y-khi-di-may-bay-mua-cao-diem-tet-2019,"Nhu cầu hướng dẫn đi máy bay mùa cao điểm/Tết; chưa có route tương đương, nên giữ URL để phát triển nội dung."

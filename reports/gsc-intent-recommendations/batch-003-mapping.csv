@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/mua-them-hanh-ly-starlux-airlines,keep_existing,/mua-them-hanh-ly-starlux-airlines,"140 click; truy vấn tập trung mua thêm và quy định hành lý Starlux, route hiện tại đúng intent."
+/mua-them-hanh-ly-korean-air,keep_existing,/mua-them-hanh-ly-korean-air,"133 click; truy vấn đều xoay quanh mua thêm hành lý Korean Air, route hiện tại đúng intent."
+/mua-them-hanh-ly-united-airlines,remap_existing,/mua-them-hanh-ly-united-airlines,"127 click; truy vấn nêu rõ mua thêm và hành lý United Airlines, route hãng hợp lệ và tương đương."
+/doi-ve-may-bay-qatar-airways,remap_existing,/doi-ngay-ve-qatar-airways,"126 click; truy vấn có ý định đổi vé Qatar Airways, route đổi ngày vé Qatar hợp lệ và sát intent."
+/mua-them-hanh-ly-eva-air,keep_existing,/mua-them-hanh-ly-eva-air,"118 click và 52.514 impression; truy vấn tập trung mua thêm, giá và hành lý EVA Air, route hiện tại đúng intent."
+/mua-them-hanh-ly-indigo-airlines,remap_existing,/mua-them-hanh-ly-indigo,"113 click; truy vấn có ý định mua thêm hành lý Indigo, route hãng hợp lệ và tương đương."
+/mua-them-hanh-ly-air-france,remap_existing,/mua-them-hanh-ly-air-france,"112 click; source mang intent hành lý Air France và route hãng hợp lệ, phù hợp hơn hub hành lý chung."
+/doi-ve-may-bay-turkish-airlines,remap_existing,/doi-ngay-ve-turkish-airlines,"108 click; truy vấn gồm đổi và tra cứu vé Turkish Airlines, route đổi ngày vé hãng hợp lệ và tương đương."
+/mua-them-hanh-ly-scoot-air,remap_existing,/mua-them-hanh-ly-scoot,"105 click; truy vấn tập trung mua thêm hành lý Scoot/Flyscoot, route hãng hợp lệ và đúng intent."
+/mua-them-hanh-ly-american-airlines,remap_existing,/mua-them-hanh-ly-american-airlines,"102 click; dù có truy vấn vé American, vẫn có nhu cầu hành lý cụ thể và route hãng hợp lệ để giữ intent."
+/mua-them-hanh-ly-air-macau,remap_existing,/mua-them-hanh-ly-air-macau,"102 click; truy vấn nêu Air Macau và hotline/hành lý, route hãng hợp lệ phù hợp hơn hub chung."
+/mua-them-hanh-ly-thai-airways,remap_existing,/mua-them-hanh-ly-thai-airways,"94 click; truy vấn tập trung mua thêm và quy định hành lý Thai Airways, route hãng hợp lệ và tương đương."

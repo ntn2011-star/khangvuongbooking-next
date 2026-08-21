@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/mua-them-hanh-ly-cathay-pacific,keep_existing,/mua-them-hanh-ly-cathay-pacific,URL và route hợp lệ cùng intent mua hành lý Cathay; 249 click và truy vấn thương hiệu rõ.
+/mua-them-hanh-ly-air-canada,remap_existing,/mua-them-hanh-ly-air-canada,"Route Air Canada hợp lệ, khớp trực tiếp intent mua/hành lý Air Canada; ưu tiên hơn hub chung."
+/mua-them-hanh-ly-tway-air,create_specific_landing,/mua-them-hanh-ly-tway-air,"Nhu cầu hành lý T’way cụ thể, route tương đương chưa có; giữ URL để tạo landing chuyên biệt."
+/mua-them-hanh-ly-singapore-airlines,keep_existing,/mua-them-hanh-ly-singapore-airlines,URL và route hợp lệ cùng intent mua hành lý Singapore Airlines; truy vấn và 221 click xác nhận.
+/mua-them-hanh-ly-philippines-airlines,remap_existing,/mua-them-hanh-ly-philippine-airlines,Route Philippine Airlines hợp lệ và cùng intent hành lý; truy vấn thương hiệu hỗ trợ remap.
+/mua-them-hanh-ly-vietnam-airlines,keep_existing,/mua-them-hanh-ly-vietnam-airlines,URL và route hợp lệ cùng intent; 40.641 impression cho thấy nhu cầu hành lý Vietnam Airlines mạnh.
+/mua-them-hanh-ly-malaysia-airlines,remap_existing,/mua-them-hanh-ly-malaysia-airlines,"Route Malaysia Airlines hợp lệ, tương đương intent mua hành lý; không dùng hub chung."
+/huong-dan-mua-them-hanh-ly-cac-hang-hang-khong,remap_existing,/huong-dan-mua-them-hanh-ly-cac-hang-hang-kong,URL và route hợp lệ cho intent hướng dẫn tổng quát; 22.647 impression xác nhận giá trị.
+/mua-them-hanh-ly-china-airlines,keep_existing,/mua-them-hanh-ly-china-airlines,URL và route hợp lệ cùng intent mua hành lý China Airlines; 36.282 impression rất đáng giữ.
+/mua-them-hanh-ly-asiana-airlines,remap_existing,/mua-them-hanh-ly-asiana-airlines,"Route Asiana Airlines hợp lệ và khớp intent hành lý; truy vấn thương hiệu rõ, không redirect hub."
+/mua-them-hanh-ly-china-southern-airlines,keep_existing,/mua-them-hanh-ly-china-southern,Route hợp lệ China Southern cùng intent; giữ đích hiện tại để bảo toàn từ khóa và 161 click.
+/mua-them-hanh-ly-xiamen-airlines,remap_existing,/mua-them-hanh-ly-xiamenair,"Route Xiamenair hợp lệ và cùng intent hãng; 152 click, tốt hơn tạo URL trùng nghĩa."

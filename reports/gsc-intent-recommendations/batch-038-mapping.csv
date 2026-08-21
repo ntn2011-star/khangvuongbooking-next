@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/du-lich-cuoi-tuan-sieu-tiet-kiem-voi-ve-jetstar-chi-tu-80-000d,create_specific_landing,/du-lich-cuoi-tuan-sieu-tiet-kiem-voi-ve-jetstar-chi-tu-80-000d,"Nhu cầu ưu đãi Jetstar cụ thể; chưa có route tương đương và dữ liệu chỉ 5 impression."
+/dat-ve-cebu-som-gia-chi-tu-70-usd-uu-dai-nghi-duong-o-manila-khong-tom-kem,create_specific_landing,/dat-ve-cebu-som-gia-chi-tu-70-usd-uu-dai-nghi-duong-o-manila-khong-tom-kem,"Nhu cầu Cebu và Manila cụ thể; giữ URL để xây landing thay vì chuyển sang hub khuyến mãi."
+/qatar-airways-uu-dai-giam-den-30-ve-khu-hoi-bay-khap-gioi,create_specific_landing,/qatar-airways-uu-dai-giam-den-30-ve-khu-hoi-bay-khap-gioi,"Nhu cầu khuyến mãi Qatar Airways cụ thể; chưa có route tương đương để remap."
+/san-ve-may-khuyen-mai-vietnam-airlines-thu-5-ruc-ro,create_specific_landing,/san-ve-may-khuyen-mai-vietnam-airlines-thu-5-ruc-ro,"Nhu cầu khuyến mãi Vietnam Airlines cụ thể; giữ URL và phát triển nội dung chuyên biệt."
+/tag/ve-may-bay-khu-hoi,retire_low_value,/tag/ve-may-bay-khu-hoi,"Tag mỏng, không click và chỉ 5 impression; không có tín hiệu intent đủ mạnh để giữ chuyển hướng."
+/tag/ve-may-bay-di-bali-gia-re,retire_low_value,/tag/ve-may-bay-di-bali-gia-re,"Tag mỏng, không click và không có top query; không nên redirect sang hub chung."
+/tag/ve-may-bay-di-thai-lan-air-asia,create_specific_landing,/tag/ve-may-bay-di-thai-lan-air-asia,"Top query nêu rõ AirAsia đi Thái Lan; giữ URL để tạo landing đúng intent dù hiện chưa có route đích."
+/tag/asiana-airlines-km-ve-di-my-gia-re,create_specific_landing,/tag/asiana-airlines-km-ve-di-my-gia-re,"Top query nêu rõ Asiana đi Mỹ; tạo landing chuyên biệt để bảo toàn intent thay vì remap hub hãng."
+/den-bangkok-thai-lan-cung-air-asia-voi-gia-ve-1-chieu-chi-tu-35-usd,create_specific_landing,/den-bangkok-thai-lan-cung-air-asia-voi-gia-ve-1-chieu-chi-tu-35-usd,"Intent tuyến Bangkok với Thai AirAsia rất cụ thể; chưa có route tương đương và có top query hỗ trợ."
+/uu-dai-dac-biet-giam-30-ve-vietnam-airlines-hanh-trinh-ha-noi-sydney,create_specific_landing,/uu-dai-dac-biet-giam-30-ve-vietnam-airlines-hanh-trinh-ha-noi-sydney,"Intent hãng và tuyến Hà Nội–Sydney cụ thể; chưa có route tương đương để remap."
+/cung-ve-air-asia-du-lich-mua-sam-tha-ga-gia-chi-tu-3-usd,create_specific_landing,/cung-ve-air-asia-du-lich-mua-sam-tha-ga-gia-chi-tu-3-usd,"Intent ưu đãi AirAsia cụ thể; không có route tương đương nên giữ URL để xây nội dung."
+/tag/ve-may-bay-ha-noi-di-siem-reap,retire_low_value,/tag/ve-may-bay-ha-noi-di-siem-reap,"Tag tuyến mỏng, không click, không top query và chỉ 5 impression; không có cơ sở giữ redirect." 

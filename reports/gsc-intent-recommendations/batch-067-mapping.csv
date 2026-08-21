@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/khuyen-mai/page/10,retire_low_value,/khuyen-mai/page/10,Trang phân trang không có click và chỉ 1 impression; không có intent độc lập cần bảo tồn.
+/ky-nghi-dong-nam-voi-ve-air-asia-gia-chi-tu-7-usd,create_specific_landing,/ky-nghi-dong-nam-voi-ve-air-asia-gia-chi-tu-7-usd,Nhu cầu cụ thể về kỳ nghỉ Đông Nam Á và AirAsia; chưa có route tương đương nên giữ URL để tạo landing.
+/tag/air-asia-km-ve-di-thai-lan-tu-36-usd,retire_low_value,/tag/air-asia-km-ve-di-thai-lan-tu-36-usd,URL tag không có click, chỉ 1 impression và không có truy vấn; không nên chuyển tag sang hub chung.
+/tag/air-asia-km-ve-may-bay-di-bangkok-gia-re,retire_low_value,/tag/air-asia-km-ve-may-bay-di-bangkok-gia-re,URL tag mỏng không có click và chỉ 1 impression; không có dữ liệu chứng minh giá trị độc lập.
+/tag/cac-loai-mi-noi-tieng-o-nhat,retire_low_value,/tag/cac-loai-mi-noi-tieng-o-nhat,URL tag không có click, chỉ 1 impression và không có truy vấn; intent không đủ giá trị để duy trì.
+/tag/dat-ve-may-bay-di-nhat-ban-khu-hoi,retire_low_value,/tag/dat-ve-may-bay-di-nhat-ban-khu-hoi,Tag không có click và chỉ 1 impression; không redirect sang hub vé máy bay khi chưa có intent tương đương.
+/tag/khuyen-mai-air-asia,retire_low_value,/tag/khuyen-mai-air-asia,URL tag mỏng không có click và chỉ 1 impression; không có top query hỗ trợ nhu cầu riêng.
+/tag/khuyen-mai-thai-airways,retire_low_value,/tag/khuyen-mai-thai-airways,URL tag mỏng không có click và chỉ 1 impression; không có top query hỗ trợ nhu cầu riêng.
+/tag/khuyen-mai-vietjet-air,retire_low_value,/tag/khuyen-mai-vietjet-air,URL tag mỏng không có click và chỉ 1 impression; không có top query hỗ trợ nhu cầu riêng.
+/tag/le-hoi-songkran,retire_low_value,/tag/le-hoi-songkran,Tag chỉ có 1 impression từ truy vấn site và không có click; không cho thấy intent tìm kiếm hữu ích độc lập.
+/tag/ve-0-dong-cua-vietjet-air,retire_low_value,/tag/ve-0-dong-cua-vietjet-air,URL tag không có click và chỉ 1 impression; không redirect file tag sang nội dung chung.
+/tag/ve-ho-chi-minh-di-berlin-gia-re,retire_low_value,/tag/ve-ho-chi-minh-di-berlin-gia-re,URL tag không có click và chỉ 1 impression; nhu cầu tuyến cụ thể nên không gán vào hub không tương đương.

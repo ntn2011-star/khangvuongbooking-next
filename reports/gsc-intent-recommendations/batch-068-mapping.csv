@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/ve-may-bay-cebu-pacific-gia-re,retire_low_value,/tag/ve-may-bay-cebu-pacific-gia-re,"Tag mỏng, 0 click và chỉ 1 impression; không có truy vấn thể hiện intent hữu ích để giữ."
+/tag/ve-may-bay-di-chiang-mai-gia-re,retire_low_value,/tag/ve-may-bay-di-chiang-mai-gia-re,"Tag mỏng, 0 click và chỉ 1 impression; không có truy vấn thể hiện intent hữu ích để giữ."
+/tag/ve-may-bay-di-indonesia-gia-re,retire_low_value,/tag/ve-may-bay-di-indonesia-gia-re,"Tag mỏng, 0 click và chỉ 1 impression; không có truy vấn thể hiện intent hữu ích để giữ."
+/tag/ve-may-bay-di-malaysia-airlines-gia-re,retire_low_value,/tag/ve-may-bay-di-malaysia-airlines-gia-re,"Tag mỏng, 0 click và chỉ 1 impression; không có truy vấn thể hiện intent hữu ích để giữ."
+/tag/ve-may-bay-di-uc-vietjet-air,create_specific_landing,/tag/ve-may-bay-di-uc-vietjet-air,Có truy vấn cụ thể nhưng tag không phải đích nội dung; giữ nguyên URL để xây landing Vietjet đi Úc.
+/tag/ve-may-may-khuyen-mai,retire_low_value,/tag/ve-may-may-khuyen-mai,"Tag mỏng, 0 click và chỉ 1 impression; không có truy vấn thể hiện intent hữu ích để giữ."
+/ve-dep-tu-49-usd-du-ngoan-khap-noi-cung-malaysia-airlines,create_specific_landing,/ve-dep-tu-49-usd-du-ngoan-khap-noi-cung-malaysia-airlines,"Nhu cầu bài viết/ưu đãi cụ thể; chưa có route tương đương, nên giữ URL để xây landing đúng intent."
+/ve-may-bay-di-dien-bien,create_specific_landing,/ve-may-bay-di-dien-bien,"Nhu cầu bài viết/ưu đãi cụ thể; chưa có route tương đương, nên giữ URL để xây landing đúng intent."
+/ve-tet-vietnam-airlines-chi-tu-299-000d,create_specific_landing,/ve-tet-vietnam-airlines-chi-tu-299-000d,"Nhu cầu bài viết/ưu đãi cụ thể; chưa có route tương đương, nên giữ URL để xây landing đúng intent."
+/air-asia-uu-dai-ve-may-bay-di-uc-gia-chi-tu-74-usd-cuc-re,create_specific_landing,/air-asia-uu-dai-ve-may-bay-di-uc-gia-chi-tu-74-usd-cuc-re,"Nhu cầu bài viết/ưu đãi cụ thể; chưa có route tương đương, nên giữ URL để xây landing đúng intent."
+/cathay-pacific-khuyen-mai-bay-den-va-canada-gia-sieu-re-chi-tu-541-usd-khu-hoi,create_specific_landing,/cathay-pacific-khuyen-mai-bay-den-va-canada-gia-sieu-re-chi-tu-541-usd-khu-hoi,"Nhu cầu bài viết/ưu đãi cụ thể; chưa có route tương đương, nên giữ URL để xây landing đúng intent."
+/chao-duong-bay-moi-vietjet-air-khuyen-mai-1-980-000-ve-0-dong,create_specific_landing,/chao-duong-bay-moi-vietjet-air-khuyen-mai-1-980-000-ve-0-dong,"Nhu cầu bài viết/ưu đãi cụ thể; chưa có route tương đương, nên giữ URL để xây landing đúng intent."

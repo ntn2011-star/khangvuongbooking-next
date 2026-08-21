@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/san-ve-re-cua-singapore-airlines,create_specific_landing,/tag/san-ve-re-cua-singapore-airlines,"Intent giá vé Singapore Airlines cụ thể; chưa có route tương đương, giữ URL để xây landing."
+/tag/thu-tuc-giay-to-danh-cho-ba-bau-di-may-bay-vietjet-air,create_specific_landing,/tag/thu-tuc-giay-to-danh-cho-ba-bau-di-may-bay-vietjet-air,"Nhu cầu thủ tục cho bà bầu và hãng Vietjet cụ thể; chưa có route tương đương để remap."
+/tag/ve-may-bay-vietnam-airlines-gia-re,create_specific_landing,/tag/ve-may-bay-vietnam-airlines-gia-re,"Intent vé Vietnam Airlines giá rẻ cụ thể; hub vé máy bay không tương đương đầy đủ, giữ URL."
+/chia-se-bi-quyet-han-che-u-tai-khi-di-may-bay,remap_existing,/cam-nang-bay,"Bài hướng dẫn sức khỏe khi bay có intent tương đương trực tiếp với chuyên mục cẩm nang bay hợp lệ."
+/tag/dai-ly-ve-may-bay-gia-re-jetstar,create_specific_landing,/tag/dai-ly-ve-may-bay-gia-re-jetstar,"Nhu cầu đại lý vé Jetstar cụ thể; chưa có route đích tương đương, không dồn về hub vé chung."
+/len-lich-kham-pha-philippines-dau-nam-voi-ve-cebu-uu-dai-chi-tu-60-usd,create_specific_landing,/len-lich-kham-pha-philippines-dau-nam-voi-ve-cebu-uu-dai-chi-tu-60-usd,"Bài ưu đãi Cebu đi Philippines có nhu cầu hãng và điểm đến cụ thể; chưa có route tương đương."
+/tag/ve-may-bay-bamboo-airways,create_specific_landing,/tag/ve-may-bay-bamboo-airways,"Intent vé Bamboo Airways cụ thể; chưa có route hãng tương đương, giữ URL để tạo landing."
+/tag/ve-may-bay-china-southern-airlines-gia-re,create_specific_landing,/tag/ve-may-bay-china-southern-airlines-gia-re,"Intent vé China Southern giá rẻ cụ thể; chưa có route tương đương, không redirect sang hub chung."
+/tag/dai-ly-eva-air,create_specific_landing,/tag/dai-ly-eva-air,"Top query thể hiện rõ intent đại lý EVA Air; chưa có route tương đương, giữ URL để xây nội dung."
+/tag/dat-ve-may-bay-air-asia-khuyen-mai,create_specific_landing,/tag/dat-ve-may-bay-air-asia-khuyen-mai,"Nhu cầu đặt vé khuyến mãi AirAsia cụ thể; route khuyến mãi chung không đủ tương đương."
+/tag/vietjet-mo-duong-bay-thang-viet-nam-den-uc,create_specific_landing,/tag/vietjet-mo-duong-bay-thang-viet-nam-den-uc,"Nhu cầu tuyến Vietjet Việt Nam–Úc cụ thể; chưa có route tương đương để chuyển hướng."
+/ve-air-asia-giam-gia-sau-den-50-cho-hanh-trinh-bay-bangkok-tu-viet-nam,create_specific_landing,/ve-air-asia-giam-gia-sau-den-50-cho-hanh-trinh-bay-bangkok-tu-viet-nam,"Bài ưu đãi AirAsia theo tuyến Việt Nam–Bangkok cụ thể; chưa có route tương đương, giữ URL."

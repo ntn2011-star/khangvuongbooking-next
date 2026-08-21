@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/ve-may-bay-di-malaysia-bao-nhieu-tien,retire_low_value,/tag/ve-may-bay-di-malaysia-bao-nhieu-tien,Tag mỏng không có click và chỉ 1 impression; không có truy vấn để chứng minh giá trị giữ lại.
+/tag/ve-may-bay-di-thanh-pho-ho-chi-minh-gia-re,retire_low_value,/tag/ve-may-bay-di-thanh-pho-ho-chi-minh-gia-re,Tag mỏng không có click và chỉ 1 impression; không có truy vấn để chứng minh giá trị giữ lại.
+/tag/ve-may-bay-di-thuy-sy-gia-re,retire_low_value,/tag/ve-may-bay-di-thuy-sy-gia-re,Tag mỏng không có click và chỉ 1 impression; không có truy vấn để chứng minh giá trị giữ lại.
+/tag/ve-may-bay-ha-noi-di-cao-hung-gia-re,create_specific_landing,/tag/ve-may-bay-ha-noi-di-cao-hung-gia-re,Intent tuyến Hà Nội–Cao Hùng là nhu cầu cụ thể; chưa có route tương đương nên giữ URL để xây landing.
+/tag/ve-may-bay-tphcm-di-bangkok,create_specific_landing,/tag/ve-may-bay-tphcm-di-bangkok,Intent tuyến TP.HCM–Bangkok là nhu cầu cụ thể; chưa có route tương đương nên giữ URL để xây landing.
+/tag/ve-may-bay-tphcm-di-uc,create_specific_landing,/tag/ve-may-bay-tphcm-di-uc,Intent tuyến TP.HCM–Úc là nhu cầu cụ thể; chưa có route tương đương nên giữ URL để xây landing.
+/ve-cebu-pacific-uu-dai-bay-ngay-philippines-gia-chi-tu-70-usd,remap_existing,/cebu-pacific-khuyen-mai-ve-di-philippines-dat-ngay-bay-som-chi-tu-1-678-000d,Cùng intent ưu đãi Cebu Pacific đi Philippines và route đích hợp lệ; giữ tín hiệu vào landing khuyến mãi tương đương.
+/vietjet-air-khuyen-mai-hang-trieu-ve-0-dong-black-friday,create_specific_landing,/vietjet-air-khuyen-mai-hang-trieu-ve-0-dong-black-friday,Intent khuyến mãi Vietjet và Black Friday cụ thể; chưa có route tương đương nên giữ URL để xây landing.
+/mo-ban-ve-may-bay-di-dai-bac-tokyo-tu-bamboo-airways,create_specific_landing,/mo-ban-ve-may-bay-di-dai-bac-tokyo-tu-bamboo-airways,Intent hãng Bamboo và tuyến Đài Bắc–Tokyo cụ thể; chưa có route tương đương nên giữ URL để xây landing.
+/tag/cebu-pacific-km-ve-di-manila-tu-70-usd,remap_existing,/cebu-pacific-khuyen-mai-ve-di-philippines-dat-ngay-bay-som-chi-tu-1-678-000d,Cùng intent khuyến mãi Cebu Pacific đi Philippines; route đích hợp lệ và gần nhất về chủ đề, không dùng hub chung.
+/tag/dat-ve-may-bay-di-tp-ho-chi-minh,create_specific_landing,/tag/dat-ve-may-bay-di-tp-ho-chi-minh,Intent đặt vé đến TP.HCM là nhu cầu thành phố cụ thể; chưa có route tương đương nên giữ URL để xây landing.
+/tag/khuyen-mai-malaysia-airlines,create_specific_landing,/tag/khuyen-mai-malaysia-airlines,Intent khuyến mãi theo hãng Malaysia Airlines cụ thể; chưa có route tương đương nên giữ URL để xây landing.

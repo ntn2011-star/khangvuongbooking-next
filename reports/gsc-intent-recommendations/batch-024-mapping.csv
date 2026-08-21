@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/khuyen-mai-cebu-pacific-chi-tu-75-usd-tan-huong-thien-duong-boracay,create_specific_landing,/khuyen-mai-cebu-pacific-chi-tu-75-usd-tan-huong-thien-duong-boracay,"Intent cụ thể vé Cebu Pacific đi Boracay; có 16 impression, chưa có route tương đương nên giữ URL để tạo landing."
+/top-4-hon-dao-san-francisco-hap-dan-nhat,create_specific_landing,/top-4-hon-dao-san-francisco-hap-dan-nhat,"Bài hướng dẫn điểm đến cụ thể tại San Francisco; 15 impression, không có route tương đương nên giữ URL tạo nội dung."
+/hot-ve-jetstar-chi-tu-11-000d-di-choi-khap-chau-a-ngay-dau-xuan,create_specific_landing,/hot-ve-jetstar-chi-tu-11-000d-di-choi-khap-chau-a-ngay-dau-xuan,"Nhu cầu khuyến mãi Jetstar cụ thể; 15 impression và không có landing tương đương, cần giữ URL triển khai lại."
+/bi-quyet-giam-met-moi-sau-khi-di-may-bay,remap_existing,/cam-nang-bay,"Hướng dẫn giảm mệt sau chuyến bay phù hợp intent cẩm nang; 15 impression và route đích hợp lệ."
+/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-san-juan-puerto-rico-my,create_specific_landing,/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-san-juan-puerto-rico-my,"Dịch vụ thú cưng theo tuyến San Juan cụ thể; 15 impression, chưa có route tương đương nên giữ URL tạo landing."
+/tiet-kiem-dac-biet-ve-vietnam-airlines-ha-noi-di-sydney-gia-chi-tu-500-usd,create_specific_landing,/tiet-kiem-dac-biet-ve-vietnam-airlines-ha-noi-di-sydney-gia-chi-tu-500-usd,"Intent tuyến Hà Nội–Sydney của Vietnam Airlines rất cụ thể; 15 impression, không có route tương đương."
+/bamboo-airways-uu-dai-10-ve-may-bay-cuoi-tuan,remap_existing,/khuyen-mai,"Nội dung ưu đãi Bamboo và truy vấn khuyến mãi; 15 impression, phù hợp trực tiếp với hub khuyến mãi hợp lệ."
+/tag/ve-khu-hoi-qatar-airways,retire_low_value,/tag/ve-khu-hoi-qatar-airways,"Tag mỏng, không có truy vấn hữu ích và 0 click; không nên redirect sang trang nội dung khác."
+/jetstar-goi-ban-di-du-lich-ve-1-chieu-chi-tu-88k-uu-dai,create_specific_landing,/jetstar-goi-ban-di-du-lich-ve-1-chieu-chi-tu-88k-uu-dai,"Nhu cầu vé Jetstar một chiều và ưu đãi cụ thể; 14 impression, chưa có route tương đương nên giữ URL."
+/tag/dat-ve-may-bay-qatar-airway,retire_low_value,/tag/dat-ve-may-bay-qatar-airway,"Tag Qatar mỏng, không có truy vấn và 0 click; giữ dạng retire thay vì redirect file tag sang hub."
+/khuyen-mai-vietjet-air-chi-tu-1-600-dong-nhan-ngay-1-6,remap_existing,/khuyen-mai,"Truy vấn khuyến mãi Vietjet khớp rõ với hub khuyến mãi; 14 impression và route đích hợp lệ."
+/tag/dai-ly-thai-lion-air,remap_existing,/dai-ly-phong-ve,"Truy vấn tập trung vào Thai Lion Air và hotline đại lý; remap về hub đại lý phòng vé hợp lệ, cùng intent dịch vụ đại lý."

@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/mua-soi-dong-voi-ve-cebu-uu-dai-chi-tu-69-usd-di-philippines,create_specific_landing,/mua-soi-dong-voi-ve-cebu-uu-dai-chi-tu-69-usd-di-philippines,"Nhu cầu cụ thể về ưu đãi Cebu đi Philippines; hiện không có route tương đương, nên giữ URL để xây landing đúng intent."
+/tag/5-ngoi-chua-tai-sai-gon-cau-gi-duoc-nay-ban-nen-den-dip-dau-xuan,retire_low_value,/tag/5-ngoi-chua-tai-sai-gon-cau-gi-duoc-nay-ban-nen-den-dip-dau-xuan,"Tag mỏng, 0 click và chỉ 1 impression; không có tín hiệu đủ mạnh để giữ hoặc chuyển hướng."
+/tag/book-ve-may-bay-di-hong-kong-khu-hoi,retire_low_value,/tag/book-ve-may-bay-di-hong-kong-khu-hoi,"Tag mỏng, 0 click và chỉ 1 impression; không dùng tag làm đích thay cho landing vé Hong Kong."
+/tag/chuon-trinh-khuyen-mai-cua-vietjet-air,retire_low_value,/tag/chuon-trinh-khuyen-mai-cua-vietjet-air,"Tag mỏng, 0 click và chỉ 1 impression; tín hiệu không đủ để duy trì URL hoặc redirect."
+/tag/dai-loan-mien-visa,retire_low_value,/tag/dai-loan-mien-visa,"Tag mỏng, 0 click và chỉ 1 impression; không có dữ liệu truy vấn chứng minh giá trị giữ lại."
+/tag/mua-ve-may-bay-di-ha-lan-khu-hoi,retire_low_value,/tag/mua-ve-may-bay-di-ha-lan-khu-hoi,"Tag mỏng, 0 click và chỉ 1 impression; không redirect sang hub vé máy bay khi intent chưa được xác nhận."
+/tag/ve-88-000d-cua-jetstar,retire_low_value,/tag/ve-88-000d-cua-jetstar,"Tag mỏng, 0 click và chỉ 1 impression; ưu đãi cũ không có tín hiệu hiệu suất đáng giữ."
+/tag/ve-may-bay-di-berlin-gia-re-nhat,retire_low_value,/tag/ve-may-bay-di-berlin-gia-re-nhat,"Tag mỏng, 0 click và chỉ 1 impression; chưa có route Berlin tương đương để remap an toàn."
+/tag/ve-may-bay-di-quang-chau,retire_low_value,/tag/ve-may-bay-di-quang-chau,"Tag mỏng, 0 click và chỉ 1 impression; không có dữ liệu truy vấn hỗ trợ giữ URL."
+/tag/ve-may-bay-di-uc-bao-nhieu-tien,retire_low_value,/tag/ve-may-bay-di-uc-bao-nhieu-tien,"Tag mỏng, 0 click và chỉ 1 impression; không chuyển sang hub chung vì không bảo toàn intent giá vé Úc."
+/tag/ve-may-bay-di-uc-chi-tu-159-usd,retire_low_value,/tag/ve-may-bay-di-uc-chi-tu-159-usd,"Tag mỏng, 0 click và chỉ 1 impression; ưu đãi cụ thể không có route tương đương và thiếu tín hiệu giữ lại."
+/tiger-air-uu-dai-ve-chi-tu-35-usd-bay-khap-16-diem-den-tren-the-gioi,create_specific_landing,/tiger-air-uu-dai-ve-chi-tu-35-usd-bay-khap-16-diem-den-tren-the-gioi,"Nhu cầu cụ thể về ưu đãi Tiger Air; chưa có route tương đương, nên giữ URL để tạo nội dung đúng chủ đề."

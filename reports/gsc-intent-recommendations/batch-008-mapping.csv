@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/doi-ve-may-bay-lao-airlines,create_specific_landing,/doi-ve-may-bay-lao-airlines,"Nhu cầu đổi vé theo hãng; chưa có route Lao Airlines tương đương, giữ URL để xây landing chuyên biệt."
+/doi-ve-may-bay-vietjet-air,remap_existing,/doi-ngay-ve-vietjet-air,"Intent đổi vé Vietjet khớp route hãng hợp lệ; giữ tín hiệu 13 click và nhóm truy vấn phí, cách đổi."
+/doi-ve-may-bay-vietnam-airlines,remap_existing,/doi-ngay-ve-vietnam-airlines,Intent đổi vé Vietnam Airlines khớp route hãng hợp lệ; bảo toàn 12 click và truy vấn thương hiệu.
+/thong-tin-nang-hang-the-va-gia-han-the-hoi-vien-eva-air,remap_existing,/dich-vu-nang-hang-ve-hang-eva-air,Nhu cầu nâng hạng Eva Air khớp route dịch vụ hãng hợp lệ; truy vấn chủ đạo cũng xoay quanh đổi/nâng hạng.
+/doi-ve-may-bay-tway-air,create_specific_landing,/doi-ve-may-bay-tway-air,"URL có intent hãng Tway Air nhưng truy vấn còn lệch sang thông tin hãng; chưa có route đổi vé tương đương, giữ để phát triển."
+/mua-them-hanh-ly-thai-lion-air,create_specific_landing,/mua-them-hanh-ly-thai-lion-air,"Nhu cầu mua hành lý theo Thai Lion Air là cụ thể; route Lion Air không tương đương hoàn toàn, nên giữ URL tạo landing riêng."
+/doi-ve-may-bay-aeroflot,create_specific_landing,/doi-ve-may-bay-aeroflot,"URL theo Aeroflot có 11 click nhưng truy vấn thiên về đại lý/phòng vé; chưa có đích hãng tương đương, giữ URL để đáp ứng intent."
+/doi-ve-may-bay-asiana-airlines,remap_existing,/doi-ngay-ve-asiana-airlines,Intent đổi vé Asiana Airlines khớp route hãng hợp lệ; ưu tiên bảo toàn 9 click và tín hiệu thương hiệu.
+/mua-them-hanh-ly-nok-air,create_specific_landing,/mua-them-hanh-ly-nok-air,"Nhu cầu mua thêm hành lý Nok Air là cụ thể; chưa có route Nok Air tương đương, giữ URL thay vì chuyển về hub."
+/kinh-nghiem-thu-tuc-xin-visa-trung-quoc,create_specific_landing,/kinh-nghiem-thu-tuc-xin-visa-trung-quoc,"Intent visa Trung Quốc rất rõ, 8 click và 4.091 impression; chưa có route quốc gia tương đương, giữ URL tạo landing chuyên biệt."
+/starlux-airlines-tang-them-1-kien-hanh-ly-ky-gui-di-my,remap_existing,/mua-them-hanh-ly-starlux-airlines,Intent tăng/mua hành lý Starlux khớp route hành lý hãng hợp lệ; giữ tín hiệu 7 click và truy vấn chủ đề.
+/mua-them-hanh-ly-iraero-airlines,create_specific_landing,/mua-them-hanh-ly-iraero-airlines,"URL dịch vụ theo Iraero có 7 click; chưa có route hãng tương đương, giữ URL để xây nội dung cụ thể thay vì redirect hub."

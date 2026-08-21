@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/doi-ve-may-bay-singapore-airlines,remap_existing,/doi-ngay-ve-singapore-airlines,"48 click, 2.778 impression; intent đổi vé Singapore Airlines khớp route đích hợp lệ."
+/doi-ve-may-bay-air-china,remap_existing,/doi-ngay-ve-air-china,"45 click, 3.048 impression; truy vấn tập trung đổi vé Air China, khớp route hãng hợp lệ."
+/doi-ve-may-bay-sichuan-airlines,remap_existing,/doi-ngay-ve-sichuan-airlines,"43 click, 2.035 impression; intent hãng Sichuan và quản lý đặt chỗ khớp route chuyên biệt hợp lệ."
+/dich-vu-sua-ten-ve-eva-air,remap_existing,/sua-ten-ve-eva-air,"41 click, 1.665 impression; nhu cầu sửa tên/đổi vé EVA Air khớp route dịch vụ hiện có."
+/doi-ve-may-bay-philippines-airlines,remap_existing,/doi-ngay-ve-philippine-airlines,"41 click, 1.035 impression; intent đổi vé Philippines Airlines khớp route chuyên biệt hợp lệ."
+/mua-them-hanh-ly-jetstar,remap_existing,/mua-them-hanh-ly-jetstar-airways,"40 click, 2.192 impression; truy vấn mua thêm hành lý Jetstar khớp route hãng hợp lệ."
+/mua-them-hanh-ly-lao-airlines,create_specific_landing,/mua-them-hanh-ly-lao-airlines,"40 click, 1.013 impression; nhu cầu hành lý Lao Airlines cụ thể, chưa có route tương đương để redirect."
+/doi-ve-may-bay-china-southern-airlines,remap_existing,/doi-ngay-ve-china-southern,"37 click, 5.281 impression; intent đổi vé China Southern khớp route hợp lệ."
+/mua-them-hanh-ly-vietravel-airlines,remap_existing,/mua-them-hanh-ly-vietravel-airlines,"35 click, 8.760 impression; intent mua hành lý ký gửi Vietravel khớp route chuyên biệt hợp lệ."
+/doi-ve-may-bay-indigo-airlines,remap_existing,/doi-ngay-ve-indigo,"34 click, 1.087 impression; truy vấn liên quan Indigo và đánh giá, route đổi vé Indigo hợp lệ gần nhất."
+/doi-ve-may-bay-china-eastern-airlines,remap_existing,/doi-ngay-ve-china-eastern,"32 click, 10.906 impression; intent đổi vé/quản lý đặt chỗ China Eastern khớp route hãng hợp lệ."
+/doi-ve-may-bay-air-canada,remap_existing,/doi-ngay-ve-air-canada,"32 click, 1.324 impression; nhu cầu Air Canada gồm đại lý và check-in, route hãng hợp lệ phù hợp hơn hub chung."

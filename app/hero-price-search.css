@@ -1,0 +1,84 @@
+/* Nền trong cho bộ tìm giá: giữ ảnh điểm đến hiện rõ, còn các điều khiển vẫn đủ tương phản. */
+.hero-price-search .flight-price-search {
+  border-color: rgb(255 255 255 / 48%);
+  background: rgb(255 255 255 / 48%);
+  box-shadow: 0 14px 30px rgb(0 0 0 / 16%);
+  backdrop-filter: blur(1.5px) saturate(106%);
+}
+
+.hero-price-search .flight-price-search input,
+.hero-price-search .flight-price-search select,
+.hero-price-search .flight-price-search fieldset button {
+  background: rgb(255 255 255 / 88%);
+}
+
+.hero-price-search .flight-price-search fieldset button[aria-pressed='true'] {
+  background: var(--landing-primary);
+  color: #fff;
+}
+
+.hero-price-search .flight-price-search-heading strong,
+.hero-price-search .flight-price-search label,
+.hero-price-search .flight-price-search small,
+.hero-price-search .flight-price-search [role='status'] {
+  text-shadow: 0 1px 0 rgb(255 255 255 / 46%);
+}
+
+/* Hub hãng: dùng vùng dưới tiêu đề làm điểm tương tác chính, nhưng vẫn để máy bay và tiếp viên hiện rõ phía sau. */
+.hero-price-search--airline {
+  margin-top: 1.05rem;
+}
+
+.hero-price-search--airline .flight-price-search {
+  border-color: color-mix(in srgb, var(--landing-accent) 68%, rgb(255 255 255 / 78%));
+  background: color-mix(in srgb, rgb(255 255 255 / 60%) 72%, var(--landing-soft));
+  box-shadow: 0 20px 42px color-mix(in srgb, var(--landing-primary) 34%, transparent);
+}
+
+.hero-price-search--airline .flight-price-search-heading span {
+  color: var(--landing-primary);
+}
+
+.hero-price-search--airline .flight-price-search-submit {
+  background: var(--landing-accent);
+  box-shadow: 0 9px 20px color-mix(in srgb, var(--landing-accent) 42%, transparent);
+}
+
+@media (min-width: 1121px) {
+  .hero-price-search--airline .flight-price-search form {
+    grid-template-columns: 1.16fr 1fr 1.28fr 1fr 1fr;
+  }
+
+  .hero-price-search--airline .flight-price-search label:nth-of-type(2) {
+    grid-column: span 2;
+  }
+
+  .hero-price-search--airline .flight-price-search-submit {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 760px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .page-hero.has-hero-art {
+    overflow-x: clip;
+  }
+
+  .hero-price-search,
+  .hero-price-search .flight-price-search,
+  .hero-price-search .flight-price-search-form,
+  .hero-price-search .flight-price-search-fields {
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .hero-price-search .flight-price-search {
+    background: rgb(255 255 255 / 60%);
+    backdrop-filter: blur(2px) saturate(106%);
+  }
+}

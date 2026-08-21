@@ -1,0 +1,9 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/khuyen-mai-vietnam-airlines-du-lich-tha-ga-don-mung-nam-moi,create_specific_landing,/khuyen-mai-vietnam-airlines-du-lich-tha-ga-don-mung-nam-moi,Nhu cầu khuyến mãi cụ thể theo hãng/điểm đến hoặc sự kiện; chưa có route tương đương nên giữ URL để xây landing riêng.
+/chao-mung-seagame-31-san-ve-re-cung-vietjet-air,create_specific_landing,/chao-mung-seagame-31-san-ve-re-cung-vietjet-air,Nhu cầu khuyến mãi cụ thể theo hãng/điểm đến hoặc sự kiện; chưa có route tương đương nên giữ URL để xây landing riêng.
+/thong-bao-lich-nghi-tet-at-ty-2025,create_specific_landing,/thong-bao-lich-nghi-tet-at-ty-2025,"Nhu cầu thông báo lịch nghỉ Tết cụ thể; route cẩm nang không tương đương, nên giữ URL để tạo nội dung đúng intent."
+/uu-dai-mua-thu-ve-nok-air-bay-thai-lan-chi-tu-34-usd-sieu-km,create_specific_landing,/uu-dai-mua-thu-ve-nok-air-bay-thai-lan-chi-tu-34-usd-sieu-km,Nhu cầu khuyến mãi cụ thể theo hãng/điểm đến hoặc sự kiện; chưa có route tương đương nên giữ URL để xây landing riêng.
+/ve-tu-35-usd-den-kuala-lumpur-quay-tung-malaysia-cung-air-asia,create_specific_landing,/ve-tu-35-usd-den-kuala-lumpur-quay-tung-malaysia-cung-air-asia,Nhu cầu khuyến mãi cụ thể theo hãng/điểm đến hoặc sự kiện; chưa có route tương đương nên giữ URL để xây landing riêng.
+/ve-may-bay-di-han-quoc,remap_existing,/ve-may-bay-di-han-quoc,Intent vé máy bay đi Hàn Quốc tương đương; route đích hợp lệ và giữ đúng nhu cầu tìm kiếm.
+/tag/chuong-trinh-km-cua-cebu-pacific,retire_low_value,/tag/chuong-trinh-km-cua-cebu-pacific,"Trang tag mỏng, 0 click và chỉ 1 impression; không có intent cụ thể đủ giá trị để giữ hoặc chuyển hướng."
+/tag/han-che-u-tai-khi-di-may-bay,retire_low_value,/tag/han-che-u-tai-khi-di-may-bay,"Trang tag mỏng, 0 click và chỉ 1 impression; không có intent cụ thể đủ giá trị để giữ hoặc chuyển hướng."

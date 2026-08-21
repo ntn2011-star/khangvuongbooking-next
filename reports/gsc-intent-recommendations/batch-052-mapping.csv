@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/vietnam-airlines-mien-phi-hanh-ly-ky-gui-23kg-cho-ve-pho-thong,remap_existing,/mua-them-hanh-ly-vietnam-airlines,"Cùng intent hành lý ký gửi Vietnam Airlines; route đích hợp lệ và chuyên biệt hơn hub chung."
+/di-du-lich-cung-singapore-airlines-khong-ton-kem-ve-khu-hoi-chi-tu-146-usd,create_specific_landing,/di-du-lich-cung-singapore-airlines-khong-ton-kem-ve-khu-hoi-chi-tu-146-usd,"Bài có intent cụ thể Singapore Airlines và giá vé khứ hồi; chưa có route tương đương, nên giữ URL để xây landing."
+/tag/mua-ve-may-bay-di-ha-noi-khu-hoi,retire_low_value,/tag/mua-ve-may-bay-di-ha-noi-khu-hoi,"Tag mỏng, 0 click và chỉ 2 impression; không có tín hiệu đủ mạnh để giữ hoặc chuyển hướng."
+/tag/san-ve-may-bay-gia-re-cua-vietjet-air,retire_low_value,/tag/san-ve-may-bay-gia-re-cua-vietjet-air,"Tag mỏng, 0 click và chỉ 2 impression; không nên redirect sang hub vé máy bay chung."
+/tag/ve-jetstar-0-dong,retire_low_value,/tag/ve-jetstar-0-dong,"Tag mỏng, 0 click và chỉ 2 impression; không có intent bền vững để giữ trong cấu trúc mới."
+/uu-dai-bay-cung-qatar-airways-gia-sieu-re-chi-tu-3400000d-khu-hoi,create_specific_landing,/uu-dai-bay-cung-qatar-airways-gia-sieu-re-chi-tu-3400000d-khu-hoi,"Nhu cầu ưu đãi Qatar Airways và giá khứ hồi rất cụ thể; chưa có route tương đương, cần giữ URL để tạo landing."
+/chi-tu-90-usd-hanh-trinh-ha-noi-di-manila-ve-mot-chieu,create_specific_landing,/chi-tu-90-usd-hanh-trinh-ha-noi-di-manila-ve-mot-chieu,"Intent tuyến Hà Nội–Manila một chiều và mức giá cụ thể; chưa có route tương đương, không redirect sang cẩm nang."
+/giam-gia-cuc-sau-ve-emirates-di-chau-au-chi-tu-14229000d-khu-hoi,create_specific_landing,/giam-gia-cuc-sau-ve-emirates-di-chau-au-chi-tu-14229000d-khu-hoi,"Intent khuyến mãi Emirates đi châu Âu khứ hồi; chưa có route tương đương, nên giữ URL để phát triển landing."
+/tag/dat-ve-may-bay-di-da-lat,retire_low_value,/tag/dat-ve-may-bay-di-da-lat,"Tag mỏng, 0 click và chỉ 2 impression; không đủ giá trị để chuyển sang hub vé máy bay."
+/tag/dat-ve-may-bay-di-han-quoc-bao-nhieu-tien,retire_low_value,/tag/dat-ve-may-bay-di-han-quoc-bao-nhieu-tien,"Tag mỏng, 0 click và chỉ 2 impression; không redirect intent giá cụ thể sang hub chung."
+/tag/mua-ve-may-bay-di-trung-quoc-bao-nhieu-tien,retire_low_value,/tag/mua-ve-may-bay-di-trung-quoc-bao-nhieu-tien,"Tag mỏng, 0 click và chỉ 2 impression; chưa có tín hiệu để bảo tồn như landing riêng."
+/tag/ve-may-bay-di-dai-loan-gia-re,retire_low_value,/tag/ve-may-bay-di-dai-loan-gia-re,"Tag mỏng, 0 click và chỉ 2 impression; không có giá trị rõ ràng ngoài phân loại tag."

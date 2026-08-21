@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/mua-them-hanh-ly-ana-nippon-airways,create_specific_landing,/mua-them-hanh-ly-ana-nippon-airways,"829 click; intent mua thêm hành lý ANA rất cụ thể, route chung không tương đương; giữ URL để xây landing riêng"
+/mua-them-hanh-ly-air-asia,create_specific_landing,/mua-them-hanh-ly-air-asia,"704 click và 30.176 impression; nhu cầu hành lý AirAsia cụ thể, chưa có route tương đương; giữ URL tạo landing riêng"
+/mua-them-hanh-ly-japan-airlines,keep_existing,/mua-them-hanh-ly-japan-airlines,"697 click; route đích hợp lệ và cùng intent mua thêm/quy định hành lý Japan Airlines"
+/mua-them-hanh-ly-turkish-airlines,keep_existing,/mua-them-hanh-ly-turkish-airlines,"616 click; route đích hợp lệ, bao phủ đúng intent hành lý Turkish Airlines"
+/doi-ve-may-bay-air-asia,remap_existing,/doi-ngay-ve,"476 click; route hợp lệ và intent đổi vé AirAsia tương đương trang đổi ngày vé"
+/mua-them-hanh-ly-qatar-airways,keep_existing,/mua-them-hanh-ly-qatar-airways,"469 click; route đích hợp lệ và khớp intent mua thêm hành lý Qatar Airways"
+/mua-them-hanh-ly-emirates,keep_existing,/mua-them-hanh-ly-emirates,"407 click; route đích hợp lệ và khớp intent mua thêm hành lý Emirates"
+/mua-them-hanh-ly-air-china,keep_existing,/mua-them-hanh-ly-air-china,"328 click; route đích hợp lệ, cùng intent hành lý Air China"
+/mua-them-hanh-ly-sichuan-airlines,create_specific_landing,/mua-them-hanh-ly-sichuan-airlines,"319 click; truy vấn tập trung vào hành lý Sichuan Airlines, chưa có route riêng tương đương; giữ URL tạo landing"
+/mua-them-hanh-ly-china-eastern-airlines,remap_existing,/mua-them-hanh-ly-china-eastern,"304 click và 26.218 impression; route hợp lệ, cùng intent hành lý China Eastern"
+/mua-them-hanh-ly-hongkong-airlines,create_specific_landing,/mua-them-hanh-ly-hongkong-airlines,"273 click; intent hãng Hong Kong/HK Express còn cụ thể, route hub chung không tương đương; giữ URL tạo landing"
+/mua-them-hanh-ly-delta-airlines,create_specific_landing,/mua-them-hanh-ly-delta-airlines,"266 click; truy vấn hành lý Delta có nhu cầu hãng cụ thể, chưa có route tương đương; giữ URL tạo landing riêng"

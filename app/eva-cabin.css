@@ -1,0 +1,23 @@
+.article-grid-main { display: grid; align-content: start; gap: 1.45rem; }
+.eva-cabin-explorer { overflow: hidden; border: 1px solid #b7d4c7; border-radius: 1rem; padding: 1.05rem; background: linear-gradient(145deg, #f8fdfb, #eaf6ef); box-shadow: 0 16px 32px rgba(18, 93, 67, .07); }
+.eva-cabin-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; }
+.eva-cabin-heading p { margin: 0; color: #0b705f; font-size: .68rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+.eva-cabin-heading h2 { margin: .38rem 0 0; color: #103d32; font-size: clamp(1.45rem, 2.1vw, 2rem); line-height: 1.12; }
+.eva-cabin-heading > span { max-width: 14rem; color: #5f7680; font-size: .72rem; line-height: 1.45; }
+.eva-cabin-tabs { display: flex; flex-wrap: wrap; gap: .48rem; margin-top: 1rem; padding: .52rem; border: 1px solid #c5dfd1; border-radius: .75rem; background: rgba(255, 255, 255, .76); }
+.eva-cabin-tabs button { border: 1px solid #c0d5ca; border-radius: 999px; padding: .48rem .72rem; color: #245d4d; background: #fff; font-size: .73rem; font-weight: 900; cursor: pointer; transition: background .16s, color .16s, transform .16s; }
+.eva-cabin-tabs button.is-active { border-color: #0b705f; color: #fff; background: #0b705f; }
+.eva-cabin-tabs button:hover { transform: translateY(-1px); }
+.eva-cabin-stage { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(11rem, .85fr); gap: 1rem; margin-top: 1rem; }
+.eva-cabin-stage figure { position: relative; min-height: 16rem; margin: 0; overflow: hidden; border-radius: .75rem; background: #143f36; }
+.eva-cabin-stage figure img { width: 100%; height: 100%; min-height: 16rem; object-fit: cover; }
+.eva-cabin-stage figcaption { position: absolute; right: .65rem; bottom: .65rem; left: .65rem; border-radius: .46rem; padding: .45rem .55rem; color: #fff; background: rgba(4, 50, 41, .78); font-size: .7rem; font-weight: 800; }
+.eva-cabin-copy { display: grid; align-content: center; gap: .6rem; border-radius: .75rem; padding: 1rem; background: rgba(255, 255, 255, .78); }
+.eva-cabin-copy p { margin: 0; color: #0b705f; font-size: .67rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.eva-cabin-copy h3 { margin: 0; color: #103d32; font-size: 1.25rem; }
+.eva-cabin-copy > span { color: #5f7180; font-size: .8rem; line-height: 1.55; }
+.eva-cabin-copy ul { display: grid; gap: .45rem; margin: .1rem 0 0; padding: 0; list-style: none; }
+.eva-cabin-copy li { position: relative; min-height: auto; border: 0; border-radius: 0; padding: 0 0 0 1.05rem; color: #285e50; background: transparent; font-size: .74rem; line-height: 1.35; counter-increment: none; }
+.eva-cabin-copy li::before { position: absolute; top: 0; left: 0; width: auto; height: auto; color: #f0b11e; background: transparent; content: '✓'; font-weight: 900; }
+.eva-cabin-copy li::after { content: none; }
+@media (max-width: 760px) { .eva-cabin-heading { align-items: start; flex-direction: column; } .eva-cabin-heading > span { max-width: none; } .eva-cabin-stage { grid-template-columns: 1fr; } .eva-cabin-stage figure, .eva-cabin-stage figure img { min-height: 13rem; } }

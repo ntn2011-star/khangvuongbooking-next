@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/hanh-ly-tra-truoc-vietnam-airlines,remap_existing,/mua-them-hanh-ly-vietnam-airlines,"Intent mua thêm hành lý Vietnam Airlines; route đích hợp lệ và tương đương."
+/tag/ve-may-bay-0-dong,retire_low_value,/tag/ve-may-bay-0-dong,"Tag mỏng, 0 click, 1 impression, không có truy vấn; không đủ giá trị redirect."
+/tag/ve-may-bay-ha-noi-di-malaysia,retire_low_value,/tag/ve-may-bay-ha-noi-di-malaysia,"Tag mỏng, 0 click, 1 impression, không có truy vấn; chưa có tín hiệu giữ intent."
+/vietjet-air-tung-1-trieu-ve-0-dong-san-ve-ngay-bay-khap-viet-nam,create_specific_landing,/vietjet-air-tung-1-trieu-ve-0-dong-san-ve-ngay-bay-khap-viet-nam,"Nhu cầu khuyến mãi Vietjet cụ thể; chưa có route tương đương nên giữ URL tạo landing."
+/ve-may-bay-di-da-lat,create_specific_landing,/ve-may-bay-di-da-lat,"Nhu cầu tuyến đến Đà Lạt cụ thể; chưa có route tương đương nên giữ URL tạo landing riêng."
+/vietjet-air-khuyen-mai-quoc-khanh-2-9-giam-50-gia-ve-may-bay,create_specific_landing,/vietjet-air-khuyen-mai-quoc-khanh-2-9-giam-50-gia-ve-may-bay,"Khuyến mãi Vietjet dịp 2/9 cụ thể; hub khuyến mãi không tương đương, nên giữ URL."
+/tag/ve-may-bay-asiana-airlines,remap_existing,/dai-ly-phong-ve-asiana-airlines,"Top query là đại lý vé Asiana; route đại lý hợp lệ và khớp intent hơn hub vé máy bay."
+/ve-may-bay-di-con-dao,create_specific_landing,/ve-may-bay-di-con-dao,"Nhu cầu tuyến đến Côn Đảo cụ thể; chưa có route đích tương đương nên giữ URL tạo landing."
+/hanh-trinh-du-lich-voi-ve-cebu-chi-tu-59-usd-den-philippines,create_specific_landing,/hanh-trinh-du-lich-voi-ve-cebu-chi-tu-59-usd-den-philippines,"Bài nhắm vé Cebu Pacific đi Philippines; chưa có route tương đương nên giữ URL."
+/tag/book-ve-may-bay-di-han-quoc,retire_low_value,/tag/book-ve-may-bay-di-han-quoc,"Tag mỏng, 0 click, 1 impression, không có truy vấn; không đủ tín hiệu redirect."
+/tag/gia-ve-may-bay-di-hong-kong-bao-nhieu-tien,retire_low_value,/tag/gia-ve-may-bay-di-hong-kong-bao-nhieu-tien,"Tag mỏng, 0 click, 1 impression, không có truy vấn; không đủ tín hiệu giữ hoặc chuyển intent."
+/tag/ve-may-bay-di-phuket,retire_low_value,/tag/ve-may-bay-di-phuket,"Tag mỏng, 0 click, 1 impression, không có truy vấn; không nên redirect sang hub chung."

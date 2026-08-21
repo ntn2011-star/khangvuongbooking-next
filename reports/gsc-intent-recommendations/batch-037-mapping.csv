@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/ve-may-bay-quoc-te/ve-may-bay-di-phap-gia-re,remap_existing,/ve-may-bay-di-paris,"Query nêu vé đi Paris; route Paris hợp lệ và cùng intent vé máy bay quốc tế cụ thể."
+/khuyen-mai-chi-36-000-vnd-thu-4-bay-vo-tu-bamboo-airways,create_specific_landing,/khuyen-mai-chi-36-000-vnd-thu-4-bay-vo-tu-bamboo-airways,"Impression gắn Bamboo khuyến mãi thứ 4; nhu cầu hãng và chương trình cụ thể, chưa có route tương đương."
+/tag/ve-may-bay-emirate-hang-thuong-gia,retire_low_value,/tag/ve-may-bay-emirate-hang-thuong-gia,"Tag mỏng, 0 click; query chỉ là site search, không xác nhận intent hữu ích cần giữ."
+/san-ve-may-bay-gia-re-bamboo-airways-chi-tu-19k-dip-tet-2023,create_specific_landing,/san-ve-may-bay-gia-re-bamboo-airways-chi-tu-19k-dip-tet-2023,"Query thể hiện nhu cầu săn vé Bamboo giá rẻ; nội dung ưu đãi cụ thể chưa có route đích tương đương."
+/tag/ve-may-bay-tphcm-di-los-angeles,retire_low_value,/tag/ve-may-bay-tphcm-di-los-angeles,"Tag mỏng, 0 click; dù có query tuyến Los Angeles, không nên chuyển tag sang hub chung."
+/uu-dai-giam-15-ve-khu-hoi-ha-noi-sydney-cua-vietnam-airlines,create_specific_landing,/uu-dai-giam-15-ve-khu-hoi-ha-noi-sydney-cua-vietnam-airlines,"Query rõ tuyến Hà Nội–Sydney khứ hồi và Vietnam Airlines; chưa có landing ưu đãi tương đương."
+/cuoi-tuan-sieu-khuyen-mai-ve-jetstar-chi-tu-11-000d-ron-rang-don-thu-sang,create_specific_landing,/cuoi-tuan-sieu-khuyen-mai-ve-jetstar-chi-tu-11-000d-ron-rang-don-thu-sang,"Query có intent khuyến mãi Jetstar; bài ưu đãi cụ thể không có route tương đương để remap."
+/air-asia-sieu-khuyen-mai-giam-den-70-gia-ve-cuc-uu-dai,create_specific_landing,/air-asia-sieu-khuyen-mai-giam-den-70-gia-ve-cuc-uu-dai,"Nhu cầu khuyến mãi AirAsia cụ thể; không có query bổ sung nhưng không có route tương đương."
+/vietnam-airlines-uu-dai-ve-bay-sieu-tiet-kiem-den-san-francisco,create_specific_landing,/vietnam-airlines-uu-dai-ve-bay-sieu-tiet-kiem-den-san-francisco,"Nhu cầu hãng và tuyến San Francisco cụ thể; chưa có route ưu đãi tương đương để chuyển hướng."
+/tag/asiana-airlines-km-ve-khu-hoi-chi-tu-2-692-usd,retire_low_value,/tag/asiana-airlines-km-ve-khu-hoi-chi-tu-2-692-usd,"Tag mỏng, 0 click; query rời rạc và chủ yếu site search, chưa đủ tín hiệu giữ hoặc remap."
+/bay-bamboo-airways-tam-biet-fa-khuyen-mai-mua-1-tang-1,create_specific_landing,/bay-bamboo-airways-tam-biet-fa-khuyen-mai-mua-1-tang-1,"Nhu cầu chương trình Bamboo mua 1 tặng 1 cụ thể; không có route đích tương đương."
+/bamboo-airways-giam-gia-ve-may-bay-di-chau-au-1-198-000-vnd,create_specific_landing,/bamboo-airways-giam-gia-ve-may-bay-di-chau-au-1-198-000-vnd,"Nhu cầu Bamboo đi châu Âu và mức giá cụ thể; chưa có landing tương đương, cần giữ URL tạo nội dung." 

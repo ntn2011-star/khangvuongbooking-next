@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/san-ve-bay-0-dong-vietjet-khung-gio-vang-dip-20-10,create_specific_landing,/san-ve-bay-0-dong-vietjet-khung-gio-vang-dip-20-10,"Intent săn vé Vietjet 0 đồng theo dịp cụ thể; 6 impression, chưa có route tương đương nên giữ URL tạo landing."
+/tag/ve-may-bay-di-hai-phong-gia-re,retire_low_value,/tag/ve-may-bay-di-hai-phong-gia-re,Tag mỏng không có click/query và không có giá trị intent độc lập; không chuyển về hub chung.
+/tag/ve-may-bay-di-singapore-khu-hoi,retire_low_value,/tag/ve-may-bay-di-singapore-khu-hoi,Tag mỏng không có click/query; intent vé khứ hồi Singapore không được chứng minh đủ để giữ trang tag.
+/tag/vietjet-km-ve-199k-hcm-di-phnom-penh,retire_low_value,/tag/vietjet-km-ve-199k-hcm-di-phnom-penh,Tag mỏng không có click/query; không redirect tag sang hub khuyến mãi khi thiếu landing tương đương.
+/ve-may-bay-tet-khuyen-mai-vietnam-airlines-chi-tu-99-000-vnd,create_specific_landing,/ve-may-bay-tet-khuyen-mai-vietnam-airlines-chi-tu-99-000-vnd,"Intent khuyến mãi Tết của Vietnam Airlines và mức giá cụ thể; 6 impression, chưa có route tương đương."
+/china-airlines-uu-dai-10-ve-da-nang-den-dai-bac-nhat-ban-bac-my,create_specific_landing,/china-airlines-uu-dai-10-ve-da-nang-den-dai-bac-nhat-ban-bac-my,"Intent ưu đãi China Airlines theo tuyến/khu vực; có query liên quan và 6 impression, chưa có landing tương đương."
+/tag/khuyen-mai-ve-may-bay-thang-8,retire_low_value,/tag/khuyen-mai-ve-may-bay-thang-8,Tag mỏng không có click/query; không có tín hiệu đủ mạnh để duy trì trang tag riêng.
+/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-minneapolis-minnesota-my,create_specific_landing,/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-minneapolis-minnesota-my,"Nhận định dịch vụ vận chuyển thú cưng theo điểm đến Minneapolis; 6 impression, route hiện có không tương đương về địa danh."
+/tag/gia-ve-may-bay-di-han-quoc-khu-hoi,retire_low_value,/tag/gia-ve-may-bay-di-han-quoc-khu-hoi,Tag mỏng không có click/query và không có route đích tương đương đã xác nhận.
+/tag/gia-ve-may-bay-di-my-bao-nhieu-tien,retire_low_value,/tag/gia-ve-may-bay-di-my-bao-nhieu-tien,Tag mỏng không có click/query; intent giá vé Mỹ quá rộng để giữ một tag không có nội dung riêng.
+/tag/dat-ve-may-bay-di-thai-lan-khu-hoi,retire_low_value,/tag/dat-ve-may-bay-di-thai-lan-khu-hoi,Tag mỏng không có click/query; không redirect sang hub vé máy bay chỉ vì cùng chủ đề.
+/sieu-uu-dai-thu-6-bay-khap-the-gioi-voi-gia-cuc-soc-cung-vietjet,create_specific_landing,/sieu-uu-dai-thu-6-bay-khap-the-gioi-voi-gia-cuc-soc-cung-vietjet,"Intent chương trình ưu đãi Vietjet cụ thể; query nêu sân bay Xiêm Riệp và 6 impression, chưa có route tương đương."""

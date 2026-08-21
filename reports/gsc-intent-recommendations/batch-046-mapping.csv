@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/ve-air-asia-dat-ngay-bay-lien-khuyen-mai-cuoi-nam-chi-tu-6-usd,create_specific_landing,/ve-air-asia-dat-ngay-bay-lien-khuyen-mai-cuoi-nam-chi-tu-6-usd,"Nhu cầu khuyến mãi AirAsia rất cụ thể; có 3 impression nhưng chưa có route tương đương để remap."
+/all-nippon-airways-uu-dai-ve-khu-hoi-sang-nhat-chi-tu-16-376-000d-sieu-tiet-kiem,create_specific_landing,/all-nippon-airways-uu-dai-ve-khu-hoi-sang-nhat-chi-tu-16-376-000d-sieu-tiet-kiem,"Intent ưu đãi ANA đi Nhật cụ thể; 3 impression chưa đủ để chuyển sang hub khuyến mãi chung."
+/tag/ve-may-bay-di-y-gia-re,retire_low_value,/tag/ve-may-bay-di-y-gia-re,"Tag mỏng, không có click và chỉ 3 impression; không có truy vấn hay intent đủ hữu ích để giữ chuyển hướng."
+/ve-khu-hoi-chi-tu-197-usd-du-hi-dai-loan-cung-eva-air,create_specific_landing,/ve-khu-hoi-chi-tu-197-usd-du-hi-dai-loan-cung-eva-air,"Nhu cầu vé khứ hồi Đài Loan với EVA Air cụ thể; 3 impression, chưa có route tương đương thật sự."
+/tag/ve-may-bay-di-han-quoc-gia-re,retire_low_value,/tag/ve-may-bay-di-han-quoc-gia-re,"Tag mỏng, không click và chỉ 3 impression; không nên redirect sang hub vé máy bay chung."
+/tag/ve-may-bay-di-malaysia,retire_low_value,/tag/ve-may-bay-di-malaysia,"Tag mỏng, không click và chỉ 3 impression; không có tín hiệu intent đủ mạnh để duy trì."
+/chi-tu-88k-ve-jetstar-uu-dai-khung-cuoi-tuan-bay-khap-gioi,create_specific_landing,/chi-tu-88k-ve-jetstar-uu-dai-khung-cuoi-tuan-bay-khap-gioi,"Intent khuyến mãi Jetstar cụ thể; 3 impression và không có route đích tương đương để remap an toàn."
+/tag/dai-ly-asiana-airlines,retire_low_value,/tag/dai-ly-asiana-airlines,"Tag đại lý hãng, không click và chỉ 3 impression; không redirect sang hub hãng bay vì intent chưa đủ rõ."
+/tag/ve-may-bay-tphcm-di-han-quoc,retire_low_value,/tag/ve-may-bay-tphcm-di-han-quoc,"Tag tuyến TPHCM–Hàn Quốc mỏng, không click và chỉ 3 impression; chưa có route tương đương cụ thể."
+/ung-pho-dich-covid-19-vietnam-airlines-tam-ngung-khai-thac-chuyen-bay-den-han-quoc,create_specific_landing,/ung-pho-dich-covid-19-vietnam-airlines-tam-ngung-khai-thac-chuyen-bay-den-han-quoc,"Bài hướng dẫn/sự kiện cụ thể về Vietnam Airlines; 3 impression, không có route tương đương để remap."
+/vietjet-air-uu-dai-gia-ve-may-bay-di-uc-tu-5-500-000d,create_specific_landing,/vietjet-air-uu-dai-gia-ve-may-bay-di-uc-tu-5-500-000d,"Intent ưu đãi Vietjet đi Úc cụ thể; 3 impression và chưa có landing tương đương trong route hợp lệ."
+/tu-seattle-di-chau-a-gia-ve-asiana-khu-hoi-uu-dai-chi-tu-662-usd,create_specific_landing,/tu-seattle-di-chau-a-gia-ve-asiana-khu-hoi-uu-dai-chi-tu-662-usd,"Intent tuyến Seattle–châu Á và Asiana cụ thể; 3 impression, không nên dồn về hub khuyến mãi chung." 

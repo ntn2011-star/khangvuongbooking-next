@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/cung-scoot-dot-chay-mua-he-voi-ve-chi-tu-35-usd-sieu-re,remap_existing,/dai-ly-phong-ve-scoot,Query “đại lý flyscoot” khớp trực tiếp với route đại lý Scoot hợp lệ.
+/sieu-khuyen-mai-ve-cebu-pacific-chi-tu-2-026-000d,remap_existing,/cebu-pacific-khuyen-mai-ve-di-philippines-dat-ngay-bay-som-chi-tu-1-678-000d,Intent khuyến mãi Cebu Pacific và hãng/điểm đến tương đương với landing hiện có.
+/tag/san-ve-may-bay-gia-re,retire_low_value,/tag/san-ve-may-bay-gia-re,"Tag mỏng, 0 click và chỉ 7 impression; không cần giữ như landing SEO độc lập."
+/tag/hoan-doi-ve-malindo-air,retire_low_value,/tag/hoan-doi-ve-malindo-air,"Tag mỏng, query chỉ là site search và không có tín hiệu giá trị; không redirect sang dịch vụ chung."
+/tag/ve-may-bay-vietjet-air,retire_low_value,/tag/ve-may-bay-vietjet-air,"Tag mỏng, không có top query hữu ích và 0 click; loại khỏi migration SEO."
+/bung-chay-ve-0-dong-toan-mang-bay-vietjet-air-sieu-re,create_specific_landing,/bung-chay-ve-0-dong-toan-mang-bay-vietjet-air-sieu-re,Nhu cầu cụ thể về khuyến mãi Vietjet; chưa có route tương đương nên giữ URL để tạo landing riêng.
+/malindo-air-mo-ban-lai-duong-bay-kuala-lumpur-di-da-nang,create_specific_landing,/malindo-air-mo-ban-lai-duong-bay-kuala-lumpur-di-da-nang,Nhu cầu cụ thể tuyến Kuala Lumpur–Đà Nẵng; chưa có route tương đương nên giữ URL.
+/tag/emirates-km-ve-khu-hoi-tu-12-300-000-vnd,retire_low_value,/tag/emirates-km-ve-khu-hoi-tu-12-300-000-vnd,"Tag mỏng, query không thể hiện nhu cầu ổn định và 0 click; không redirect tag sang hub."
+/bung-tinh-voi-hon-500-nghin-ve-vietjet-0-dong-bay-quoc-te-nam-2018,create_specific_landing,/bung-tinh-voi-hon-500-nghin-ve-vietjet-0-dong-bay-quoc-te-nam-2018,Bài viết nhắm ưu đãi Vietjet cụ thể; chưa có route tương đương nên giữ URL và xây nội dung.
+/chi-1-ngay-black-friday-duy-nhat-ve-vietnam-airlines-giam-den-20-toan-mang,create_specific_landing,/chi-1-ngay-black-friday-duy-nhat-ve-vietnam-airlines-giam-den-20-toan-mang,Intent khuyến mãi Black Friday của Vietnam Airlines rất cụ thể; chưa có route tương đương để remap.
+/ve-may-bay-di-canada-gia-re,create_specific_landing,/ve-may-bay-di-canada-gia-re,"Query có nhu cầu vé đi Canada giá rẻ; route tương đương chưa tồn tại, cần giữ URL làm landing riêng."
+/tag/chuong-trinh-khuyen-mai-cua-qatar-airways,retire_low_value,/tag/chuong-trinh-khuyen-mai-cua-qatar-airways,"Tag mỏng, 0 click và query chung; không nên chuyển sang hub khuyến mãi làm mất intent."

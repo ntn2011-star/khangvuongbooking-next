@@ -1,0 +1,5 @@
+import type { MetadataRoute } from 'next';
+import { legacyPages, pages, SITE_URL } from './content';
+import { airlineArticles } from './airline-articles';
+import { gscLegacyPages } from './gsc-legacy-pages';
+export default function sitemap(): MetadataRoute.Sitemap { const base = SITE_URL; return [{ url: base, priority: 1, changeFrequency: 'weekly' }, { url: `${base}/ve-may-bay-quoc-te`, priority: 0.95, changeFrequency: 'weekly' }, ...Object.values(pages).map((page) => ({ url: `${base}/${page.slug}`, priority: 0.8, changeFrequency: 'weekly' as const })), ...Object.values(legacyPages).map((page) => ({ url: `${base}/${page.slug}`, priority: 0.9, changeFrequency: 'monthly' as const })), ...Object.values(gscLegacyPages).map((page) => ({ url: `${base}/${page.slug}`, priority: 0.65, changeFrequency: 'monthly' as const, lastModified: page.updatedAt })), ...airlineArticles.map((article) => ({ url: `${base}/bai-viet/${article.slug}`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: article.updatedAt })), { url: `${base}/canh-bao-an-toan`, priority: 0.5, changeFrequency: 'monthly' }]; }

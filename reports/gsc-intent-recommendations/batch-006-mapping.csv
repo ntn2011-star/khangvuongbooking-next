@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/doi-ve-may-bay-korean-air,remap_existing,/doi-ngay-ve-korean-air,"29 click, 2.879 impression; truy vấn đều về đổi vé và quản lý đặt chỗ Korean Air, route hãng tương đương đã build."
+/doi-ve-may-bay-air-india,remap_existing,/doi-ngay-ve-air-india,"29 click, 872 impression; intent đổi vé Air India rõ qua truy vấn hãng và check-in, route hãng tương đương đã build."
+/doi-ve-may-bay-malaysia-airlines,remap_existing,/doi-ngay-ve-malaysia-airlines,"28 click, 2.553 impression; truy vấn tập trung vé và quản lý đặt chỗ Malaysia Airlines, route đổi vé hãng tương đương đã build."
+/mua-them-hanh-ly-qantas-airways,remap_existing,/mua-them-hanh-ly-qantas,"28 click, 909 impression; intent mua thêm hành lý Qantas rõ, route hãng cụ thể đã build và sát hơn hub chung."
+/doi-ve-may-bay-air-france,remap_existing,/doi-ngay-ve-air-france,"27 click, 957 impression; truy vấn đổi vé và quản lý đặt chỗ Air France, route hãng cụ thể đã build."
+/mua-them-hanh-ly-aeroflot,create_specific_landing,/mua-them-hanh-ly-aeroflot,"25 click, 3.418 impression; truy vấn đại lý và Aeroflot cho thấy nhu cầu hãng cụ thể, chưa có route hành lý Aeroflot tương đương."
+/doi-ve-may-bay-vietravel-airlines,remap_existing,/doi-ngay-ve-vietravel-airlines,"24 click, 6.939 impression; truy vấn đều về cách và phí đổi vé Vietravel, route hãng cụ thể đã build."
+/doi-ve-may-bay-delta-airlines,remap_existing,/doi-ngay-ve-delta-air-lines,"24 click, 1.701 impression; intent đổi vé Delta là chính, route hợp lệ dùng chính tả air-lines tương đương."
+/dich-vu-nang-hang-ve-eva-air,remap_existing,/nang-hang-ve-eva-air,"24 click, 929 impression; truy vấn nâng hạng và hạng ghế EVA Air, route dịch vụ hãng tương đương đã build."
+/mua-them-hanh-ly-british-airways,remap_existing,/mua-them-hanh-ly-british-airways,"23 click, 712 impression; truy vấn mua thêm hành lý British Airways, route hãng cụ thể đã build."
+/dich-vu-nang-hang-ve-hang-china-southern-airlines,remap_existing,/nang-hang-ve-china-southern,"22 click, 506 impression; intent nâng hạng China Southern, route dịch vụ hãng tương đương đã build."
+/doi-ve-may-bay-thai-airways,remap_existing,/doi-ngay-ve-thai-airways,"20 click, 1.685 impression; truy vấn đổi vé và quản lý đặt chỗ Thai Airways, route hãng cụ thể đã build."

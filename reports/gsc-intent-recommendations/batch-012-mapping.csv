@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/doi-ve-may-bay-iraero-airlines,create_specific_landing,/doi-ve-may-bay-iraero-airlines,"Nhu cầu đổi vé theo hãng Iraero; chưa có route tương đương, giữ URL để xây landing chuyên biệt."
+/doi-ve-may-bay-s7-airlines,create_specific_landing,/doi-ve-may-bay-s7-airlines,"Truy vấn S7 check-in/đổi vé theo hãng; chưa có route tương đương, giữ URL và phát triển nội dung chuyên biệt."
+/lam-the-nao-de-hoan-doi-ve-may-bay-jetstar-nhanh,create_specific_landing,/lam-the-nao-de-hoan-doi-ve-may-bay-jetstar-nhanh,Intent hướng dẫn hoàn/đổi vé Jetstar cụ thể; route đổi vé hiện có không tương đương hoàn cảnh hướng dẫn.
+/huong-dan-chi-tiet-cach-xin-visa-du-lich-hong-kong-moi-nhat,create_specific_landing,/huong-dan-chi-tiet-cach-xin-visa-du-lich-hong-kong-moi-nhat,"Nhu cầu visa Hong Kong và cách xin rất cụ thể; route /visa là hub, không đủ tương đương để chuyển hướng."
+/hoan-doi-ve-may-bay-jetstar-lam-nhu-the-nao,create_specific_landing,/hoan-doi-ve-may-bay-jetstar-lam-nhu-nao,Truy vấn phí và cách đổi/hủy vé Jetstar theo hãng; giữ URL để đáp ứng intent chi tiết thay vì chuyển sang hub.
+/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-miami-my,create_specific_landing,/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-miami-my,"Tuyến vận chuyển thú cưng đến Miami là nhu cầu cụ thể; chưa có landing tương đương, giữ URL để xây nội dung."
+/mua-them-hanh-ly-china-airlines-di-san-jose-my,create_specific_landing,/mua-them-hanh-ly-china-airlines-di-san-jose-my,Intent mua thêm hành lý China Airlines theo tuyến San Jose; route hãng chung không tương đương đầy đủ.
+/mien-phi-30kg-hanh-ly-ky-gui-khi-dat-ve-may-bay-di-nhat-vietjet-air,create_specific_landing,/mien-phi-30kg-hanh-ly-ky-gui-khi-dat-ve-may-bay-di-nhat-vietjet-air,"Nhu cầu 30kg hành lý Vietjet đi Nhật rất cụ thể; chưa có route tương đương, giữ URL để tạo landing."
+/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-boston-my,create_specific_landing,/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-boston-my,"Tuyến vận chuyển thú cưng đến Boston là nhu cầu cụ thể; chưa có landing tương đương, giữ URL để xây nội dung."
+/tag/ve-ha-noi-du-kathmandu-gia-re,create_specific_landing,/tag/ve-ha-noi-du-kathmandu-gia-re,"Có nhu cầu tìm vé Hà Nội–Kathmandu và Nepal; chưa có route tương đương, giữ URL nhưng cần nâng thành landing hữu ích."
+/mua-them-hanh-ly-china-airlines-di-chicago-my,create_specific_landing,/mua-them-hanh-ly-china-airlines-di-chicago-my,Intent mua thêm hành lý China Airlines theo tuyến Chicago; route hãng chung không tương đương đầy đủ.
+/tag/dai-ly-khang-vuong-booking,retain_asset,/tag/dai-ly-khang-vuong-booking,"Tag thương hiệu có impression nhưng không có click; giữ như asset hiện có, không redirect sang hub không tương đương."

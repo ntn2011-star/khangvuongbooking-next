@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/doi-ve-may-bay-eva-air,remap_existing,/doi-ngay-ve-eva-air,"93 click, 115184 impression; truy vấn tập trung đổi vé EVA Air, route đích cùng intent và hợp lệ."
+/doi-ve-may-bay-ana-nippon-airways,create_specific_landing,/doi-ve-may-bay-ana-nippon-airways,"91 click; truy vấn nghiêng về đại lý/phòng vé ANA, không có route đổi vé ANA tương đương nên giữ URL tạo landing riêng."
+/mua-them-hanh-ly-etihad,create_specific_landing,/mua-them-hanh-ly-etihad,"91 click; nhu cầu gắn Etihad nhưng truy vấn lẫn tuyển dụng, route hành lý hãng riêng chưa có; giữ URL để xây nội dung đúng intent."
+/mua-them-hanh-ly-air-india,create_specific_landing,/mua-them-hanh-ly-air-india,"86 click; truy vấn có Air India và giá cụ thể, chưa có route hành lý Air India tương đương; giữ URL tạo landing riêng."
+/doi-ve-may-bay-emirates,remap_existing,/doi-ngay-ve-emirates,"79 click; truy vấn chủ đạo đổi vé Emirates, route đích cùng intent và nằm trong danh sách hợp lệ."
+/doi-ve-may-bay-starlux-airlines,remap_existing,/doi-ngay-ve-starlux-airlines,"75 click; truy vấn chủ đạo đổi vé Starlux, route đích cùng intent và hợp lệ."
+/mua-them-hanh-ly-cebu-pacific,create_specific_landing,/mua-them-hanh-ly-cebu-pacific,"71 click; truy vấn chủ đạo đại lý/phòng vé Cebu Pacific, không có route hành lý hãng tương đương; giữ URL tạo landing riêng."
+/doi-ve-may-bay-japan-airlines,remap_existing,/doi-ngay-ve-japan-airlines,"64 click, 9004 impression; truy vấn đổi vé và tổng đài Japan Airlines, route đích cùng intent và hợp lệ."
+/doi-ve-may-bay-scoot-air,create_specific_landing,/doi-ve-may-bay-scoot-air,"64 click; truy vấn gồm đổi vé, đại lý và số điện thoại Scoot, chưa có route Scoot tương đương; giữ URL tạo landing riêng."
+/doi-ve-may-bay-cathay-pacific,remap_existing,/doi-ngay-ve-cathay-pacific,"63 click; truy vấn chủ đạo đổi vé Cathay Pacific, route đích cùng intent và hợp lệ."
+/mua-them-hanh-ly-vietjet-air,keep_existing,/mua-them-hanh-ly-vietjet-air,"60 click, 19821 impression; truy vấn rất sát mua thêm hành lý Vietjet và source đã là route hợp lệ đúng intent."
+/doi-ve-may-bay-china-airlines,remap_existing,/doi-ngay-ve-china-airlines,"48 click, 8717 impression; truy vấn chủ đạo đổi vé China Airlines, route đích cùng intent và hợp lệ."

@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/di-choi-tet-cung-jetstar-khoi-lo-xa-ve-chi-tu-11k-sieu-re,create_specific_landing,/di-choi-tet-cung-jetstar-khoi-lo-xa-ve-chi-tu-11k-sieu-re,URL bài viết có nhu cầu cụ thể về hãng/khuyến mãi; chưa có route tương đương nên giữ URL để tạo landing chuyên biệt.
+/tag/hoan-doi-ve-thai-airways,retire_low_value,/tag/hoan-doi-ve-thai-airways,"Trang tag mỏng, chỉ 1 impression và không có click; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/vietjet-air-mo-duong-bay-thang,retire_low_value,/tag/vietjet-air-mo-duong-bay-thang,"Trang tag mỏng, chỉ 1 impression và không có click; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/khong-su-dung-bang-lai-xe-lam-thu-tuc-di-may-bay,retire_low_value,/tag/khong-su-dung-bang-lai-xe-lam-thu-tuc-di-may-bay,"Trang tag mỏng, chỉ 1 impression và không có click; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/eva-air-km-ve-di-dai-loan-chi-tu-197-usd,retire_low_value,/tag/eva-air-km-ve-di-dai-loan-chi-tu-197-usd,"Trang tag mỏng, chỉ 1 impression và không có click; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/mua-he-ruc-ro-voi-air-asia-chi-tu-40-usd,create_specific_landing,/mua-he-ruc-ro-voi-air-asia-chi-tu-40-usd,URL bài viết có nhu cầu cụ thể về hãng/khuyến mãi; chưa có route tương đương nên giữ URL để tạo landing chuyên biệt.
+/ve-may-bay-air-asia,remap_existing,/ve-may-bay,Intent tìm vé AirAsia thuộc nhóm vé máy bay; route đích hợp lệ và tương đương cấp dịch vụ.
+/air-asia-tha-thinh-ve-di-thai-lan-cuoi-nam-chi-tu-33-usdchieu,create_specific_landing,/air-asia-tha-thinh-ve-di-thai-lan-cuoi-nam-chi-tu-33-usdchieu,URL bài viết có nhu cầu cụ thể về hãng/khuyến mãi; chưa có route tương đương nên giữ URL để tạo landing chuyên biệt.
+/tag/ve-may-bay-di-myanmar-gia-re,retire_low_value,/tag/ve-may-bay-di-myanmar-gia-re,"Trang tag mỏng, chỉ 1 impression và không có click; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/mo-duong-bay-moi-ve-vietjet-air-chi-tu-500-000d-chang-ha-noi-singapore,create_specific_landing,/mo-duong-bay-moi-ve-vietjet-air-chi-tu-500-000d-chang-ha-noi-singapore,URL bài viết có nhu cầu cụ thể về hãng/khuyến mãi; chưa có route tương đương nên giữ URL để tạo landing chuyên biệt.
+/vietnam-airlines-khuyen-mai-chi-tu-593-000-vnd-thu-5-ruc-ro,create_specific_landing,/vietnam-airlines-khuyen-mai-chi-tu-593-000-vnd-thu-5-ruc-ro,URL bài viết có nhu cầu cụ thể về hãng/khuyến mãi; chưa có route tương đương nên giữ URL để tạo landing chuyên biệt.
+/tag/am-thuc-hue,retire_low_value,/tag/am-thuc-hue,"Trang tag mỏng, chỉ 1 impression và không có click; không có intent đủ rõ để giữ hoặc chuyển hướng."

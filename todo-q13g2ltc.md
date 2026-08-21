@@ -1,0 +1,247 @@
+# Project TODO
+
+- [x] Thu thập và cấu hình khóa API kiểm tra giá vé qua ô nhập bí mật, không đưa khóa vào source hoặc chat.
+- [x] Xác định tên hoặc liên kết API giá vé RapidAPI để lấy host, endpoint và schema tham số công khai; chỉ sử dụng RAPIDAPI_KEY hiện có.
+- [x] Đọc tài liệu Sky Scrapper trên RapidAPI, xác định endpoint autocomplete/search và hợp đồng phản hồi giá/chuyến bay.
+- [x] Nối Sky Scrapper với thanh tìm giá qua lớp server, bảo vệ RAPIDAPI_KEY và chuẩn hóa kết quả có mã chuyến bay IATA.
+- [x] Thu thập RAPIDAPI_KEY và RAPIDAPI_HOST/endpoint của API giá vé đã đăng ký, không đưa giá trị vào source hoặc chat.
+- [x] Kết nối payload tìm giá hiện có với endpoint API qua lớp server an toàn và hiển thị kết quả có mã chuyến bay IATA.
+- [x] Kiểm thử kết nối API, xử lý lỗi/rỗng và hiển thị giá theo ngày trước khi bàn giao.
+- [x] Để trường điểm đến ở dạng chọn thành phố/sân bay thay vì gửi tên quốc gia tiếng Việt không được Sky Scrapper phân giải ổn định.
+- [ ] Đo độ trễ phân giải sân bay và tìm chuyến Sky Scrapper, sau đó thêm cache phù hợp cho sân bay/tuyến phổ biến.
+- [ ] Thêm bộ lọc client-side theo hãng bay, mức giá tối đa và số điểm dừng cho kết quả tìm giá live.
+- [ ] Kiểm tra hành trình TP. Hồ Chí Minh đi Mỹ bằng dữ liệu API thật và rà soát giao diện desktop/mobile.
+- [ ] Chạy TypeScript, Vitest và production build sau khi hoàn tất tối ưu API và bộ lọc.
+- [x] Làm trong nền bộ tìm giá ở đáy hero để ảnh điểm đến vẫn nhìn rõ, đồng thời bảo toàn độ đọc của nhãn, input và CTA.
+- [x] Kiểm tra trực quan hero desktop/mobile, TypeScript và production build sau khi chỉnh độ trong suốt.
+- [x] Sửa tương phản chữ của nút Khứ hồi đang chọn và loại bỏ cuộn ngang còn xuất hiện ở viewport mobile của bộ tìm giá.
+- [x] Tăng thêm độ trong nền bộ tìm giá để ảnh hero phía sau rõ hơn, sau đó kiểm tra lại độ đọc chữ trên desktop/mobile.
+- [x] Sửa z-index, nền và pointer-events của mega-menu Danh mục để không bị hero che mờ hoặc chặn click.
+- [x] Kiểm tra mở menu, click liên kết danh mục trên landing desktop/mobile, TypeScript, Vitest và production build.
+- [x] Kiểm kê 66 hub hãng và các landing dịch vụ đang thiếu nội dung SEO, ảnh hero hoặc minh họa hạng ghế.
+- [x] Thu thập dữ liệu công khai có nguồn cho từng hãng: lịch sử, sứ mệnh, nhân sự, đội bay, sân bay chính, hành khách, mạng lưới, tuyến chủ lực và mùa đặt vé.
+- [x] Chuẩn hóa bài SEO, FAQ, internal links và JSON-LD theo từng airline slug, chỉ công bố dữ kiện có nguồn hoặc ghi rõ không công bố.
+- [x] Bổ sung hoặc thay thế hero và minh họa hạng ghế đúng nhận diện từng hãng; duy trì theme màu theo token logo hãng trên toàn landing.
+- [x] Loại bỏ hai landing con Số điện thoại tổng đài và Địa chỉ văn phòng của United Airlines khỏi route, sitemap, menu và liên kết nội bộ.
+- [x] Kiểm thử ngẫu nhiên theo nhóm hãng về màu, hình, dữ liệu, SEO, URL/redirect, responsive, TypeScript, Vitest và production build.
+- [x] Thiết lập baseline Lighthouse cho nhóm URL đại diện: hub 66 hãng, hãng ưu tiên, hãng quốc tế, hãng giá rẻ và mobile.
+- [x] Phân tích LCP, CLS, INP/TBT, ảnh hero/cabin, font, JS/CSS và các request bên thứ ba gây chậm.
+- [x] Tối ưu tài nguyên dùng chung, ảnh hero/cabin và tải mã theo dữ liệu đo được, không làm giảm nội dung SEO hoặc theme hãng.
+- [x] Đo lại Lighthouse, kiểm thử 66 hero/cabin mapping, route United Airlines, sitemap, TypeScript, Vitest và production build.
+- [x] Lập báo cáo trước/sau, lưu kết quả audit và đóng gói source tối ưu mới nhất.
+- [x] Rà soát cấu trúc article-grid, cột CTA và ServiceRequestPanel để xác định nguyên nhân khoảng trống lớn trên các landing.
+- [x] Đưa cụm CTA Gọi hotline, Gọi/Zalo hỗ trợ và Mở hệ thống đặt vé lên đầu cột phải, trước biểu mẫu trên mọi landing.
+- [x] Loại bỏ khối “Thông tin theo hành trình” trên toàn bộ landing và thay bằng mô-đun “Hành trình nổi bật” giàu hình ảnh, dữ kiện công khai và liên kết phù hợp theo hãng/dịch vụ/điểm đến.
+- [x] Cân bằng lại chiều cao các cột, khoảng cách và sticky rail trên desktop/mobile để không xuất hiện vùng trống lớn.
+- [x] Kiểm thử trực quan các landing hãng, dịch vụ, điểm đến; bảo toàn CTA, SEO/JSON-LD, theme hãng, TypeScript, Vitest và production build.
+- [x] Rà soát mọi chuỗi ghép tên hãng có hạ chữ thường hoặc biến đổi casing trong CTA, biểu mẫu, tiêu đề và mô-đun nội dung.
+- [x] Sửa đồng loạt để tất cả 66 tên hãng luôn hiển thị theo tên chính thức trong dữ liệu taxonomy.
+- [x] Bổ sung kiểm thử chống hạ chữ thường tên hãng; chạy TypeScript, Vitest, production build và xác minh trực quan Vietnam Airlines cùng một landing dịch vụ.
+- [x] Rà soát điều kiện đang chỉ hiển thị cabin explorer ở hub hãng và xác định mọi landing dịch vụ theo hãng cần nhận minh họa cabin.
+- [x] Tạo khối cabin gọn dùng đúng asset ba hạng ghế và token màu từng hãng cho các landing dịch vụ theo hãng.
+- [x] Giữ cabin explorer đầy đủ trên hub hãng, đồng thời bảo đảm landing dịch vụ không thay cabin bằng ảnh chung không liên quan.
+- [x] Kiểm thử Vietnam Airlines, Singapore Airlines, EVA Air và một hãng quốc tế khác trên desktop/mobile; chạy TypeScript, Vitest và production build.
+- [x] Rà soát hero landing hãng và tái sử dụng FlightPriceSearch hiện có cho vùng trống dưới tiêu đề.
+- [x] Đặt bộ tìm giá trong hero của mọi hub hãng, nền trong, tương phản rõ, dùng token màu của hãng và không che ảnh máy bay/tiếp viên.
+- [x] Kiểm thử tìm giá, keyboard/mobile layout, TypeScript, Vitest, production build và xác minh trực quan hero Vietnam Airlines.
+- [x] Rà soát toàn bộ 66 mapping cabin để phát hiện URL không tải được, asset lỗi sinh ảnh hoặc fallback không đúng hãng.
+- [x] Tạo cụm internal link cân đối trong cột phải sau form: hub hãng, các landing dịch vụ có route thật và đường bay/destination liên quan theo ngữ cảnh.
+- [x] Không tạo liên kết giả; chỉ render route đã có trong `allPages` và loại trừ hai route hỗ trợ United Airlines đã bị gỡ.
+- [x] Thay asset cabin lỗi tại nguồn mapping, kiểm thử HTTP/DOM từng ảnh và xác minh trực quan đại diện nhóm hãng.
+- [x] Chạy TypeScript, Vitest, production build và kiểm tra responsive sau khi hoàn thiện rail liên kết cùng ảnh cabin.
+- [x] Rà soát FlightPriceSearch, dữ liệu sân bay/IATA hiện có và toàn bộ hero hãng để xác định crop che mặt tiếp viên.
+- [x] Tạo picker sân bay IATA cho điểm đi/điểm đến: dữ liệu nội địa và quốc tế, tìm kiếm, lọc vùng, lưới nhiều cột và keyboard accessible.
+- [x] Làm lại bộ tìm giá dạng kính trong rõ ảnh hero phía sau, kích thước/nhịp trường giống tham chiếu nhưng giữ token màu hãng và độ đọc tốt.
+- [x] Điều chỉnh object-position hoặc thay hero các hãng che mặt tiếp viên; duy trì máy bay và nhận diện hãng trong khung.
+- [x] Kiểm thử picker IATA, API tìm giá, mobile/desktop, 66 hero, TypeScript, Vitest và production build.
+- [x] Kiểm kê mọi slug, tiêu đề, mô tả, menu, sitemap, canonical và liên kết nội bộ còn chứa `ve-may-bay-noi-dia` hoặc `/ve-may-bay/quoc-te`.
+- [x] Chuẩn hóa toàn bộ điểm đến về `/ve-may-bay-di-{slug}` và xóa cụm “nội địa” khỏi tiêu đề/nội dung hiển thị của landing điểm đến.
+- [x] Chuẩn hóa hub quốc tế về `/ve-may-bay-quoc-te`, thay toàn bộ menu và liên kết nội bộ trỏ tới URL cũ.
+- [x] Thiết lập 301 từ tất cả URL cũ, bao gồm `/ve-may-bay-noi-dia-di-*` và `/ve-may-bay/quoc-te`, sang URL chuẩn.
+- [x] Kiểm thử route, redirect, sitemap, canonical, JSON-LD, TypeScript, Vitest và production build sau khi chuẩn hóa.
+- [x] Thu thập URL có click/impression, trang đích, truy vấn và trạng thái lập chỉ mục từ Google Search Console của khangvuongbooking.com.
+- [ ] Thu thập sitemap, crawl URL live, redirect hiện có và log 404 của website cũ nếu có.
+- [x] Đối chiếu 1.604 URL SEO có dữ liệu GSC với 4.176 mapping hiện có, route Next.js, canonical, sitemap và intent từ khóa; mọi URL đã có quyết định migration.
+- [x] Materialize các URL `create_specific_landing` mới phát hiện và chỉ áp dụng 301 cho nhóm `remap_existing` có đích build hợp lệ.
+- [x] Tạo báo cáo migration URL, kiểm thử redirect hàng loạt và checklist DNS/canonical/Search Console trước khi đổi domain.
+
+- [x] Thiết lập website Next.js độc lập cho Khang Vuong Booking.
+- [x] Tích hợp danh mục vé máy bay, hãng bay, khách sạn, combo, hộ chiếu/visa, đổi vé/hành lý, khuyến mãi và liên hệ.
+- [x] Tích hợp bảng ánh xạ 301 URL lịch sử khangvuongbooking.com.
+- [x] Hoàn thiện metadata, schema, sitemap và robots cho Google.
+- [x] Kiểm thử TypeScript, redirect và giao diện responsive.
+- [x] Đóng gói source độc lập để bàn giao.
+- [x] Tách Hộ chiếu và Visa thành hai hub landing riêng có taxonomy, metadata và liên kết nội bộ riêng.
+- [x] Tách Đổi ngày vé và Mua thêm hành lý thành hai hub dịch vụ riêng, sẵn sàng sinh landing theo từng hãng bay.
+- [x] Bổ sung taxonomy dịch vụ theo hãng: sửa tên, nâng hạng, chọn chỗ, xe lăn/check-in, thú cưng chó mèo và các dịch vụ hậu mãi khác.
+- [x] Xây dựng hub Vé nội địa theo đường bay trong nước và hub Vé quốc tế theo quốc gia, khu vực và chặng bay.
+- [x] Bổ sung các hub Vé du học sinh và Vé từ nước ngoài về Việt Nam với cấu trúc URL mở rộng theo thị trường/thành phố.
+- [x] Thiết kế mega-menu điều hướng nhiều tầng theo cấu trúc danh mục tham chiếu, với nhận diện và nội dung Khang Vuong Booking riêng.
+- [x] Tạo template landing có schema, breadcrumbs, liên kết liên quan và CTA riêng cho từng cặp dịch vụ × hãng bay.
+- [x] Mở rộng sitemap, kiểm thử URL mẫu và kiểm soát canonical/redirect khi triển khai theo đợt.
+- [x] Tạo hub hãng bay làm trang cha, chứa các landing dịch vụ con theo từng hãng với điều hướng cấp hai rõ ràng.
+- [x] Bổ sung 12 nhóm dịch vụ theo hãng: mua/đặt vé, hỗ trợ tiếng Anh, trẻ em đi một mình, booking visa, booking nhập cảnh, tổng đài, văn phòng/điểm hỗ trợ, đại lý phòng vé, người cao tuổi và xác nhận vé.
+- [x] Chuẩn hóa URL cho dịch vụ theo hãng để các landing cũ và mới có quan hệ canonical/301 rõ ràng.
+- [x] Mở rộng ma trận vé đi quốc tế theo điểm khởi hành Việt Nam × quốc gia/thành phố × hạng vé × loại hành trình × nhóm hành khách.
+- [ ] Mở rộng ma trận vé từ nước ngoài về Việt Nam theo quốc gia/thành phố × điểm đến Việt Nam × hãng bay phù hợp.
+- [ ] Bổ sung landing du học sinh theo hãng và chuẩn bị cấu trúc dữ liệu theo trường/khu vực từ nguồn xác thực.
+- [x] Kiểm thử route mẫu, sitemap và JSON-LD cho hub hãng, dịch vụ con, vé đi/về quốc tế và du học sinh.
+- [x] Rà soát cấu trúc hub vé du học sinh tham chiếu để xác định nhóm điều hướng và không sao chép nội dung, giá, tài sản hay thương hiệu.
+- [x] Lập danh mục nguồn mở, trường dữ liệu và ngày xác minh cho landing trường du học.
+- [x] Tạo hub du học sinh có liên kết theo khu vực, hãng bay và landing trường con từ dữ liệu được kiểm chứng.
+- [x] Bổ sung schema, sitemap, canonical và kiểm thử cho các landing trường du học.
+- [x] Rà soát hub hãng hàng không và điểm đến tham chiếu để lấy cấu trúc, không sao chép nội dung hoặc dữ liệu thương hiệu.
+- [x] Bổ sung hub hãng bay với các trang điểm hỗ trợ, văn phòng và đại lý chỉ từ thông tin công khai có thể xác minh.
+- [x] Bổ sung taxonomy điểm đến theo khu vực, quốc gia, thành phố và các tuyến đi từ Việt Nam.
+- [x] Tạo hub URL `/ve-may-bay/quoc-te` và các liên kết điều hướng/canonical liên quan.
+- [x] Mở rộng ItemList, OG image, sitemap và kiểm thử cho hub hãng bay và điểm đến.
+- [x] Chọn ảnh banner hàng không có nguồn và điều kiện sử dụng phù hợp cho trang chủ.
+- [x] Thiết kế hero ảnh với điểm nhấn hình ảnh bên trái và lớp phủ đảm bảo độ tương phản chữ.
+- [x] Triển khai cụm lựa chọn hành trình/check dạng thẻ hình chữ nhật bán trong suốt bên phải.
+- [x] Kiểm thử responsive, khả năng đọc, hiệu năng tải ảnh và hành vi CTA của hero mới.
+- [x] Tối ưu và tải logo Khang Vuong Booking do người dùng cung cấp lên kho tài sản website.
+- [x] Thay logo tự tạo bằng logo Khang Vuong Booking tại header, footer và các điểm nhận diện phù hợp.
+- [x] Kiểm thử hiển thị logo ở desktop/mobile và cập nhật metadata/manifest nếu cần.
+- [x] Chuẩn hóa token thiết kế toàn cục theo đỏ-xanh của Khang Vuong Booking.
+- [x] Bổ sung dữ liệu màu nhận diện cho hãng bay và màu điểm đến theo quốc gia.
+- [x] Áp dụng theme có kiểm soát cho landing hãng bay và landing quốc gia, bảo đảm độ tương phản văn bản.
+- [x] Kiểm thử responsive và khả năng đọc của các theme đỏ-xanh, hãng bay và quốc gia.
+- [x] Kiểm kê kiểu chữ hiện tại và định nghĩa thang typography dùng chung cho hero, heading, nội dung, form và nút.
+- [x] Áp dụng font sans-serif hỗ trợ tiếng Việt, trọng lượng chữ và line-height nhất quán trên toàn website.
+- [x] Loại bỏ hiệu ứng làm mềm chữ không cần thiết và điều chỉnh font-size responsive để tránh to/nhỏ thiếu đồng đều.
+- [x] Kiểm thử desktop/mobile, khả năng đọc và production build sau khi chuẩn hóa typography.
+- [x] Kiểm tra logo Khang Vuong Booking và thẻ hành trình bán trong suốt tại hero trang chủ.
+- [x] Kiểm tra landing EVA Air và theme màu theo hãng bay.
+- [x] Kiểm tra các landing đại diện cho vé quốc tế, vé từ nước ngoài về Việt Nam và vé du học sinh.
+- [x] Ghi nhận phát hiện, khắc phục nếu cần và cập nhật kết quả kiểm tra.
+- [x] Thay URL logo không được proxy bằng cơ chế nhúng logo hoạt động trong source Next.js độc lập.
+- [x] Xác minh logo hiển thị đúng ở header và footer sau khi dựng production.
+- [x] Kiểm kê toàn bộ landing dịch vụ con theo hãng để xác nhận typography, màu sắc và liên kết nội bộ nhất quán.
+- [x] Rà soát cấu trúc công khai điểm đến Aivivu và xác định danh sách quốc gia/thành phố mới phù hợp taxonomy Khang Vuong Booking.
+- [x] Bổ sung các landing điểm đến quốc tế mới, sitemap, theme và liên kết nội bộ theo dữ liệu đã xác định.
+- [x] Đánh giá hiệu năng production, tối ưu font/CSS và kiểm tra kích thước tải trang.
+- [x] Kiểm tra luồng đặt vé/CTA trên viewport mobile và xử lý các điểm chạm không phù hợp.
+- [x] Chạy kiểm thử, production build và đóng gói source cập nhật.
+- [x] Tối ưu và tích hợp ảnh logo Khang Vuong Booking chính xác do người dùng cung cấp tại header/footer.
+- [x] Tạo bộ chọn ảnh banner tại trang chủ để xem trước ảnh cục bộ trong hero mà không tự lưu hoặc xuất bản.
+- [x] Kiểm thử tải ảnh, thay ảnh, khôi phục ảnh mặc định và bố cục mobile của hero.
+- [x] Tối ưu ảnh sân bay mới do người dùng cung cấp để dùng làm banner hero thứ hai.
+- [x] Triển khai luân phiên nhẹ giữa hai ảnh banner, tôn trọng thiết lập giảm chuyển động.
+- [x] Điều chỉnh lớp phủ hero và thẻ hành trình trong suốt hơn nhưng vẫn đạt độ tương phản đọc được.
+- [x] Kiểm thử desktop/mobile, độ rõ ảnh, chuyển động và production build của hero mới.
+- [x] Rà soát các trang tham chiếu công khai và nguồn chính thức để xác định cấu trúc hub hãng bay, nội dung, FAQ và asset phù hợp.
+- [x] Thiết kế mô hình dữ liệu bài viết theo hãng gồm hero, minh họa khoang/hạng ghế, FAQ, dịch vụ và liên kết nội bộ.
+- [x] Tạo cluster nội dung EVA Air thử nghiệm với bài viết riêng, FAQ có nguồn, hero WebP và hình minh họa gốc.
+- [x] Triển khai tự động nhóm bài liên quan theo airline slug, Article/FAQ JSON-LD và internal links dịch vụ theo hãng.
+- [x] Tối ưu alt text, lazy loading và WebP cho asset nội dung; kiểm thử SEO, build và điều hướng cluster.
+- [x] Thiết kế mẫu dữ liệu dùng lại được cho landing tổng đài và địa chỉ/văn phòng theo từng hãng bay.
+- [x] Tạo landing `/so-dien-thoai-tong-dai-eva-air` và `/dia-chi-van-phong-eva-air` với FAQ, nguồn chính thức và liên kết dịch vụ EVA Air.
+- [x] Tạo ảnh nền sân bay/đại bản doanh EVA Air gốc, không dùng logo bên thứ ba, để hiển thị chìm ở footer landing hãng.
+- [x] Áp dụng footer theo màu nhận diện hãng, hình nền chìm và CSS variable theme hóa theo airline slug.
+- [x] Kiểm thử breadcrumbs, schema, nguồn thông tin, responsive, build và khả năng nhân bản cho hãng khác.
+- [x] Rà soát và tối ưu metadata SEO, canonical, Open Graph/Twitter metadata và JSON-LD cho hai landing tổng đài/văn phòng EVA Air.
+- [x] Bổ sung kiểm thử tự động để xác thực metadata và structured data của hai landing EVA Air.
+- [x] Thiết kế biểu mẫu đặt vé nhanh chỉ chuyển tiếp đến hệ thống booking chính thức, có kiểm tra dữ liệu đầu vào và chống spam ở mức giao diện.
+- [x] Tạo khung phản hồi khách hàng chỉ hiển thị dữ liệu xác thực khi có nguồn được cung cấp, không dùng đánh giá mô phỏng.
+- [x] Kiểm thử giao diện desktop/mobile, khả năng truy cập, build và hành vi chuyển tiếp của biểu mẫu trên trang tổng đài EVA Air.
+- [x] Rà soát cấu trúc danh mục hãng bay tham chiếu và mô hình dữ liệu hãng hiện có, không sao chép thương hiệu hoặc nội dung bên thứ ba.
+- [x] Mở rộng taxonomy lên 66 hãng bay chủ lực, xác định nhóm hãng ưu tiên và sinh đủ landing dịch vụ theo template hãng.
+- [x] Xây dựng trang hub hãng bay với bộ tìm kiếm, hãng ưu tiên, phần giới thiệu ngắn và các tuyến/chức năng điều hướng phù hợp.
+- [x] Thêm thông điệp vị thế Khang Vuong Booking thành lập năm 2008, 18 năm đồng hành, trên các landing hãng và dịch vụ theo hãng phù hợp.
+- [x] Tối ưu schema, sitemap, OG image, kiểm thử ma trận landing và kiểm tra responsive cho phần mở rộng 66 hãng.
+- [x] Làm trong hơn thẻ kiểm tra hành trình ở hero để giữ khả năng đọc đồng thời nhìn rõ toàn cảnh ảnh nền.
+- [x] Tăng độ rõ có kiểm soát cho ảnh nền footer hãng mà vẫn giữ tương phản chữ và liên kết.
+- [x] Tạo mẫu yêu cầu dịch vụ có bảo vệ chống spam, CTA hotline/email/booking và theme màu riêng trên cột phải landing theo hãng.
+- [x] Bổ sung FAQ hiển thị và FAQPage JSON-LD cho landing tổng đài của các hãng ưu tiên.
+- [x] Tối ưu metadata và ảnh Open Graph cho hub 66 hãng, kiểm tra hiệu suất tải cùng giao diện mobile.
+- [x] Rà soát nguồn logo phù hợp và điều kiện sử dụng trước khi tích hợp nhận diện hãng bay.
+- [x] Thay ký tự monogram bằng nhận diện logo/tên hãng nhất quán cho danh mục hãng ưu tiên.
+- [x] Thêm lớp logo hãng mờ, không gây nhiễu vào hero hub 66 hãng và giữ khả năng đọc nội dung chính.
+- [x] Kiểm thử tải asset, hiển thị desktop/mobile, độ tương phản và fallback khi logo không tải được.
+- [x] Rà soát cấu hình Next.js, URL gốc, redirect URL cũ và hướng dẫn triển khai để dùng trên Manus hoặc chuyển sang máy chủ riêng.
+- [x] Cho phép click toàn bộ card hãng để mở hub của hãng, đồng thời bảo toàn các liên kết chức năng bên trong card.
+- [x] Bổ sung CTA gọi điện 1900 6695/0934 589 488 và CTA Zalo 0934 589 488 trên toàn bộ landing dịch vụ theo hãng.
+- [x] Kiểm thử điều hướng card, liên kết tel/Zalo, giao diện mobile, redirect URL cũ và production build.
+- [x] Rà soát cấu trúc logo hãng của trang tham chiếu và xác minh nguồn asset logo được phép dùng.
+- [x] Chuẩn bị bộ logo rõ nét cho các hãng chủ lực cùng kích thước/nền/fallback nhất quán.
+- [x] Tích hợp logo lớn vào directory và nhận diện mờ ở hero hub 66 hãng, giữ điều hướng card và hiệu năng.
+- [x] Kiểm thử tải asset, hiển thị desktop/mobile, độ tương phản và production build sau cập nhật logo.
+- [x] Mở rộng map logo đã cắt khoảng trắng từ kho asset Aivivu cho 44/66 hãng có asset đối chiếu, giữ fallback nhận diện chữ cho các hãng còn lại.
+- [x] Xác minh thông tin hai địa chỉ văn phòng, số liên hệ và tạo liên kết Google Maps trực tiếp.
+- [x] Tạo landing Liên hệ và Về chúng tôi với nội dung thương hiệu đã được người dùng cung cấp, metadata và JSON-LD phù hợp.
+- [x] Bổ sung khu văn phòng Hà Nội/TP. Hồ Chí Minh, CTA bản đồ và điều hướng Liên hệ/Về chúng tôi trong footer.
+- [x] Kiểm thử link Google Maps, tel, sitemap, structured data và responsive footer/trang liên hệ.
+- [x] Thay cloud nhận diện chữ hiện tại bằng cụm logo mini trong thẻ bo góc ở góc phải hero hub 66 hãng.
+- [x] Dùng logo thật của các hãng ưu tiên với kích thước nhỏ gọn, rõ nét, tương phản phù hợp nền navy và fallback khi asset lỗi.
+- [x] Kiểm thử không chồng nội dung, responsive mobile, TypeScript, production build và khả năng tải asset của cụm logo hero.
+- [x] Lập ma trận hero cho hãng bay, điểm đến, dịch vụ và xác định bộ asset gốc có thể tái dùng theo ngữ cảnh.
+- [x] Tạo ảnh hero mới cho nhóm hãng ưu tiên, các điểm đến quốc tế và 19 nhóm dịch vụ; các hãng còn lại có fallback ảnh hàng không theo theme, không giả mạo tài sản hoặc nhân sự của hãng.
+- [x] Tích hợp ảnh hero, alt text, metadata và cấu trúc nội dung/FAQ/liên kết nội bộ theo từng loại landing.
+- [x] Mở rộng bài viết SEO và cụm nội dung theo ma trận landing, có nguồn kiểm chứng cho các tuyên bố thực tế.
+- [x] Xuất báo cáo đối chiếu URL cũ với landing mới, kiểm thử schema, tải trang, build và sitemap trước khi chuyển domain.
+- [x] Khắc phục hub `/hang-bay-eva-air` để hiển thị hero ảnh EVA Air, nội dung SEO, FAQ và liên kết dịch vụ như landing theo hãng.
+- [x] Kiểm thử trực quan, JSON-LD, TypeScript và production build cho landing hub EVA Air sau khi sửa.
+- [x] Sửa lỗi hub Vietnam Airlines nhận nhầm theme EVA Air; xác nhận token màu, footer và CTA theo đúng từng airline slug.
+- [x] Bổ sung hero ảnh và nội dung giới thiệu/điều hướng dịch vụ hiển thị đầy đủ trên các hub hãng, bắt đầu với Vietnam Airlines và EVA Air.
+- [x] Kiểm thử trực quan hai hub hãng, hero asset, content block, FAQ, theme màu và production build sau khi sửa.
+- [x] Hoàn thiện `/hang-bay-eva-air` thành mẫu chuẩn có hero máy bay/tiếp viên EVA Air, màu xanh lục–cam, nội dung hiển thị, FAQ, CTA và footer đồng nhất.
+- [x] Trình người dùng duyệt mẫu EVA Air trước khi nhân bản cấu trúc sang 65 hãng còn lại.
+- [x] Chỉnh hero EVA Air để khuôn mặt tiếp viên hiển thị trọn vẹn và lớp phủ chỉ khoảng 30% ở một phần ba bên trái.
+- [x] Kiểm tra trực quan desktop/mobile sau khi tinh chỉnh hero EVA Air rồi trình người dùng duyệt lại.
+- [x] Đẩy crop hero EVA Air lên để nhìn trọn tiếp viên và máy bay trong khung ảnh.
+- [x] Thu thập nguồn chính thức/nguồn ngành về lịch sử, sứ mệnh, đội tàu bay, nhân sự, hub, mạng đường bay và chỉ số khai thác EVA Air.
+- [x] Viết bài EVA Air chuyên sâu có trích nguồn, FAQ, schema và liên kết nội bộ đến landing dịch vụ.
+- [x] Kiểm thử hero, bài viết, liên kết nguồn, JSON-LD, responsive và production build.
+- [x] Khôi phục hero EVA Air theo bố cục ảnh phủ kín, chỉ có overlay khoảng 1/3 bên trái và không tạo mảng chia dọc.
+- [x] Đưa card bài chuyên sâu EVA Air mới lên hub `/hang-bay-eva-air` với liên kết rõ ràng để người dùng truy cập trực tiếp.
+- [x] Kiểm tra trực quan hero, card bài viết, liên kết, responsive và production build trước khi trình duyệt lại mẫu.
+- [x] Tạo canvas hero EVA Air ngang mới, thu nhỏ vừa đủ để hiện trọn tiếp viên và máy bay, với nền mở rộng liền mạch bên trái.
+- [x] Upload, tích hợp asset hero mới và kiểm thử desktop/mobile để không cắt chủ thể hoặc tạo mảng chia dọc.
+- [x] Mở rộng gradient phủ xanh EVA Air đến khoảng hai phần ba hero theo vùng người dùng đánh dấu, vẫn giữ fade sang ảnh bên phải.
+- [x] Kiểm tra trực quan độ tương phản chữ, mức nhìn máy bay/tiếp viên và responsive sau điều chỉnh phủ xanh.
+- [ ] Chỉnh trực tiếp canvas EVA Air để dải xanh đậm kéo rõ đến vùng người dùng đánh dấu rồi fade sang ảnh máy bay.
+- [ ] Upload canvas mới, cập nhật hero và xác minh trực quan thay đổi không phụ thuộc CSS overlay hoặc cache.
+- [ ] Khoá thông số canvas EVA Air theo vị trí dải xanh được người dùng đánh dấu trước khi dựng asset thay thế.
+- [ ] Kiểm tra trực tiếp asset hoàn chỉnh trước khi tích hợp duy nhất một lần vào landing EVA Air.
+- [ ] Tạo hero EVA Air full-bleed trong một cảnh sân bay thống nhất, có máy bay toàn thân, tiếp viên toàn thân bên phải và vùng chữ xanh bên trái.
+- [ ] Kiểm tra ảnh hero hoàn chỉnh trước khi upload/tích hợp duy nhất một lần vào hub EVA Air.
+- [x] Đọc trực tiếp component và CSS hero đã hoạt động của VeBayDiMy, chỉ lấy cấu trúc kỹ thuật cần thiết cho EVA Air.
+- [x] Thay hero EVA Air bằng cấu trúc tham chiếu VeBayDiMy, giữ màu EVA Air, nội dung Khang Vuong Booking và asset được người dùng cho phép.
+- [x] Thiết kế khối cabin EVA Air riêng cho Khang Vuong Booking, gồm tab ba hạng ghế và thông tin minh họa không sao chép VeBayDiMy.
+- [x] Tạo ảnh cabin nguyên bản cho Thương gia, Phổ thông đặc biệt và Phổ thông theo palette EVA Air.
+- [x] Tích hợp khối cabin vào khoảng trống bên trái form yêu cầu dịch vụ trên hub EVA Air, sau đó kiểm tra responsive và tương tác.
+- [x] Dịch khối breadcrumb, nhãn, tiêu đề và mô tả hero EVA Air vào trong theo khoảng đệm trái người dùng đánh dấu.
+- [x] Chốt cấu trúc hero EVA Air rồi áp dụng cùng cấu trúc, màu nhận diện và asset tương ứng cho 66 hãng.
+- [x] Chuẩn hóa mẫu EVA Air thành cấu hình hero, CTA, nội dung và cabin có thể tái sử dụng theo theme hãng.
+- [x] Nhân bản mẫu desktop đã duyệt sang 66 hãng với nhận diện màu, hero, nội dung theo hãng và điều hướng dịch vụ.
+- [x] Kiểm thử ma trận desktop 66 hãng, build và bảo toàn phương án tinh chỉnh mobile riêng sau bàn giao.
+- [x] Thiết kế lại danh mục hãng bay theo thư viện card thông tin chi tiết, có nhận diện màu riêng của từng hãng.
+- [x] Bổ sung logo, mã hãng, mô tả súc tích, nhãn nhu cầu và khối chặng bay nổi bật cho card hãng.
+- [x] Thêm nhóm CTA đặt vé, đổi vé, hành lý, nâng hạng và chọn chỗ liên kết đến đúng landing theo hãng.
+- [x] Kiểm thử tìm kiếm, click card, điều hướng CTA, desktop/mobile, TypeScript và production build cho thư viện hãng mới.
+- [x] Thay nhãn “Điểm vào nhanh” bằng “Đường bay chủ lực” và chỉ hiển thị các tuyến thực tế theo hãng.
+- [x] Không hiển thị liên kết dịch vụ đặt vé, đổi vé hoặc hành lý trong khối đường bay chủ lực.
+- [x] Kiểm thử các card có dữ liệu tuyến và card chưa có dữ liệu tuyến, sau đó chạy TypeScript, Vitest và production build.
+- [x] Rà soát và thay mọi khối ảnh minh họa lỗi hoặc trống bằng nội dung ảnh theo đúng slug và loại dịch vụ.
+- [x] Tạo phần nội dung mô tả, hướng dẫn và FAQ chuyên biệt theo từng slug thay cho nội dung dùng chung không phù hợp.
+- [x] Loại bỏ từ “landing” trong mọi chuỗi hiển thị công khai, thay bằng tên danh mục hoặc dịch vụ tương ứng.
+- [x] Bổ sung bộ lọc liên minh Star Alliance, SkyTeam và Oneworld vào danh mục hãng bay.
+- [x] Bổ sung mô tả lịch sử và điểm uy tín ngắn gọn cho từng hãng trong card.
+- [x] Kiểm tra và tinh chỉnh giao diện mobile, đặc biệt là khối đường bay chủ lực, sau đó chạy TypeScript, Vitest và production build.
+- [x] Khôi phục preview Next.js độc lập và xác minh URL `/sua-ten-ve-vietnam-airlines` tải được trước khi bàn giao lại.
+- [x] Rà soát và bổ sung Schema SEO phù hợp cho danh mục hãng bay cùng các trang dịch vụ theo hãng.
+- [x] Bổ sung tìm kiếm nhanh theo tên hãng, mã IATA và mã ICAO trên danh mục 66 hãng bay.
+- [x] Kiểm tra lại cân đối card hãng trên mobile và điều chỉnh nếu phát hiện khoảng trắng hoặc CTA mất cân bằng.
+- [x] Đo tải trang các URL đại diện, tối ưu phần có thể cải thiện không làm ảnh hưởng SEO, rồi chạy TypeScript, Vitest và production build.
+- [ ] Xác minh và hoàn tất phần chuyển thanh tìm giá vé gọn vào đáy hero của landing điểm đến sau khi công việc bị tạm dừng.
+- [ ] Loại bỏ thanh tìm giá trùng lặp khỏi phần cẩm nang SEO sau khi đã đặt đúng trong hero.
+- [ ] Kiểm thử trực quan hero desktop/mobile, TypeScript, Vitest và production build trước khi bàn giao.
+
+- [x] Kiểm tra source Next.js Khang Vuong Booking về build production, dependency, route server và mức sẵn sàng deploy trên Manus.
+- [x] Rà soát cấu hình API Sky Scrapper, nhu cầu database và các biến môi trường/.env mà source cần trên production.
+- [x] Lập kế hoạch DNS/cutover riêng cho `khangvuongbooking.com` sang hosting Manus, không tác động đến bất kỳ website nào khác.
+
+- [ ] Kiểm kê toàn bộ URL asset/logo còn tham chiếu host khác và xác định phương án chuyển vào kho asset của Khang Vuong Booking.
+- [ ] Thay origin static asset, fallback logo và cấu hình Next Image để source Khang Vuong Booking không phụ thuộc host khác.
+- [ ] Kiểm thử tất cả asset/logo chính, API, canonical, sitemap, redirect và build production sau khi tách origin.
+- [ ] Chuẩn bị gói source và hướng dẫn tạo project Manus riêng cho Khang Vuong Booking trước khi gắn domain.

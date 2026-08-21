@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/han-quoc-don-gian-hoa-thu-tuc-cap-visa-cho-du-khach-viet,create_specific_landing,/han-quoc-don-gian-hoa-thu-tuc-cap-visa-cho-du-khach-viet,"Intent visa Hàn Quốc cụ thể; /visa là hub, không tương đương. Giữ URL để xây landing chuyên đề."
+/doi-ve-may-bay-bamboo-airways,remap_existing,/doi-ngay-ve-bamboo-airways,"0 click nhưng 1.192 impression; truy vấn chủ yếu đổi vé Bamboo, khớp route hãng hợp lệ."
+/quy-dinh-hoan-doi-ve-may-bay-vietjet-air-ban-nen-biet,remap_existing,/doi-ngay-ve-vietjet-air,"669 impression; toàn bộ truy vấn xoay quanh đổi vé Vietjet, tương đương route đích hợp lệ."
+/co-the-ban-chua-biet-tieu-chuan-hanh-ly-hang-hang-khong-vietjet-air,create_specific_landing,/co-the-ban-chua-biet-tieu-chuan-hanh-ly-hang-hang-khong-vietjet-air,"605 impression về quy định và kích thước hành lý Vietjet; route mua thêm không cùng intent."
+/cach-xin-visa-du-lich-trung-quoc,create_specific_landing,/cach-xin-visa-du-lich-trung-quoc,"440 impression; nhu cầu là thủ tục, hồ sơ visa Trung Quốc cụ thể, không nên dồn về hub /visa."
+/nhung-dieu-can-biet-khi-xin-visa-du-lich-my,create_specific_landing,/nhung-dieu-can-biet-khi-xin-visa-du-lich-my,"388 impression; truy vấn visa du lịch Mỹ cụ thể, chưa có route tương đương ngoài hub chung."
+/cam-nang-hanh-ly-cam-van-chuyen-tren-chuyen-bay-vietjet-air,create_specific_landing,/cam-nang-hanh-ly-cam-van-chuyen-tren-chuyen-bay-vietjet-air,"270 impression về vật cấm và hành lý Vietjet; /mua-them-hanh-ly-vietjet-air khác intent."
+/doi-ve-may-bay-royal-brunei-airlines,create_specific_landing,/doi-ve-may-bay-royal-brunei-airlines,"230 impression nhưng truy vấn lệch sang vé đi Brunei; chưa có route đổi vé hãng tương đương, giữ URL để xử lý intent."
+/doi-ve-may-bay-kenya-airlines,create_specific_landing,/doi-ve-may-bay-kenya-airlines,"152 impression; truy vấn có nhu cầu Kenya Airlines nhưng route chung /doi-ngay-ve không tương đương hãng."
+/doi-ve-may-bay-thai-lion-air,create_specific_landing,/doi-ve-may-bay-thai-lion-air,"127 impression; truy vấn nêu rõ đổi vé và booking Thai Lion Air, chưa có landing hãng tương đương."
+/quy-dinh-hanh-ly-mien-cuoc-va-hanh-ly-tinh-cuoc-vietnam-airlines,create_specific_landing,/quy-dinh-hanh-ly-mien-cuoc-va-hanh-ly-tinh-cuoc-vietnam-airlines,"110 impression về hành lý miễn cước/tính cước Vietnam Airlines; route mua thêm không đủ tương đương."
+/cam-nang-hanh-ly-ky-gui-jetstar-ban-can-biet,create_specific_landing,/cam-nang-hanh-ly-ky-gui-jetstar-ban-can-biet,"110 impression về hành lý ký gửi Jetstar; chưa có route hãng tương đương, không redirect sang hub mua thêm."

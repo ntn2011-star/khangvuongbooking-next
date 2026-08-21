@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/dia-diem-hen-ho-ly-tuong-cho-cac-cap-doi-tai-sai-gon,create_specific_landing,/dia-diem-hen-ho-ly-tuong-cho-cac-cap-doi-tai-sai-gon,Nhu cầu địa điểm cụ thể tại Sài Gòn; 2 impression nhưng chưa có route tương đương để remap.
+/uu-dai-10-gia-ve-mung-sinh-nhat-vang-cung-vietnam-airlines,create_specific_landing,/uu-dai-10-gia-ve-mung-sinh-nhat-vang-cung-vietnam-airlines,"Bài ưu đãi gắn Vietnam Airlines; intent khuyến mãi cụ thể, không nên dồn về hub chung."
+/khuyen-mai-tet-ruoc-loc-xuan-cung-bamboo-airways-chi-tu-36-000-vnd,create_specific_landing,/khuyen-mai-tet-ruoc-loc-xuan-cung-bamboo-airways-chi-tu-36-000-vnd,"Top query là khuyến mãi Tết; nhu cầu và hãng cụ thể, chưa có route đích tương đương."
+/cuc-re-ve-jetstar-cuoi-tuan-sieu-khuyen-mai-chi-tu-88-000d,create_specific_landing,/cuc-re-ve-jetstar-cuoi-tuan-sieu-khuyen-mai-chi-tu-88-000d,Ưu đãi Jetstar cuối tuần là intent cụ thể; không có route hợp lệ tương đương để chuyển hướng.
+/tag/vietnam-airlineskm-ve-cho-hanh-trinh-noi-dia,retire_low_value,/tag/vietnam-airlineskm-ve-cho-hanh-trinh-noi-dia,"URL tag mỏng, chỉ có truy vấn site: và không có click; không ghi nhận intent tìm kiếm hữu ích để giữ hoặc remap."
+/tag/hanh-ly-han-che-van-chuyen-vietnam-airlines,retire_low_value,/tag/hanh-ly-han-che-van-chuyen-vietnam-airlines,"URL tag mỏng, chỉ có truy vấn site: và không có click; không ghi nhận intent tìm kiếm hữu ích để giữ hoặc remap."
+/cung-asiana-du-xuan-voi-ve-khu-hoi-tiet-kiem-chi-tu-547-usd,create_specific_landing,/cung-asiana-du-xuan-voi-ve-khu-hoi-tiet-kiem-chi-tu-547-usd,Nhu cầu vé khứ hồi Asiana và mùa du xuân cụ thể; giữ URL để bổ sung landing phù hợp.
+/cebu-pacific-khuyen-mai-di-manila-cuoi-nam-chi-tu-75-usd,create_specific_landing,/cebu-pacific-khuyen-mai-di-manila-cuoi-nam-chi-tu-75-usd,"Top query là đại lý Cebu Pacific; tuyến Manila và khuyến mãi cụ thể, chưa có route tương đương."
+/tag/all-nippon-airways,retire_low_value,/tag/all-nippon-airways,"URL tag mỏng, chỉ có truy vấn site: và không có click; không ghi nhận intent tìm kiếm hữu ích để giữ hoặc remap."
+/tag/gia-ve-may-bay-di-anh-bao-nhieu-tien,retire_low_value,/tag/gia-ve-may-bay-di-anh-bao-nhieu-tien,"URL tag mỏng, chỉ có truy vấn site: và không có click; không ghi nhận intent tìm kiếm hữu ích để giữ hoặc remap."
+/tag/scoot,retire_low_value,/tag/scoot,"URL tag mỏng, chỉ có truy vấn site: và không có click; không ghi nhận intent tìm kiếm hữu ích để giữ hoặc remap."
+/tag/ve-may-bay-korean-air-khu-hoi,retire_low_value,/tag/ve-may-bay-korean-air-khu-hoi,"URL tag mỏng, chỉ có truy vấn site: và không có click; không ghi nhận intent tìm kiếm hữu ích để giữ hoặc remap."

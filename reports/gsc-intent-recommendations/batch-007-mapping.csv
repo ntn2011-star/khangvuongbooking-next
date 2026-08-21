@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/doi-ve-may-bay-united-airlines,remap_existing,/doi-ngay-ve-united-airlines,"20 click, 1.138 impression; truy vấn tập trung đổi vé và hãng United, route chuyên biệt hợp lệ."
+/doi-ve-may-bay-etihad-airways,remap_existing,/doi-ngay-ve-etihad-airways,"20 click, 741 impression; intent đổi vé Etihad khớp trực tiếp route chuyên biệt hợp lệ."
+/doi-ve-may-bay-air-macau,remap_existing,/doi-ngay-ve-air-macau,"19 click, 1.085 impression; nhu cầu đổi vé Air Macau, route chuyên biệt hợp lệ và tương đương."
+/doi-ve-may-bay-cebu-pacific,remap_existing,/doi-ngay-ve-cebu-pacific,"18 click, 3.730 impression; truy vấn đổi vé và phòng vé Cebu Pacific, route chuyên biệt hợp lệ."
+/mua-them-hanh-ly-royal-brunei-airlines,create_specific_landing,/mua-them-hanh-ly-royal-brunei-airlines,"18 click, 364 impression; intent hành lý và Brunei rõ, chưa có route tương đương nên giữ URL để tạo landing riêng."
+/mua-them-hanh-ly-klm,remap_existing,/mua-them-hanh-ly-klm,"17 click, 647 impression; truy vấn hành lý KLM khớp route chuyên biệt hợp lệ."
+/dich-vu-nang-hang-ve-hang-qatar-airways,remap_existing,/nang-hang-ve-qatar-airways,"17 click, 480 impression; intent nâng hạng Qatar và đại lý/quản lý đặt chỗ khớp route hợp lệ."
+/mua-them-hanh-ly-malindo-air,create_specific_landing,/mua-them-hanh-ly-malindo-air,"16 click, 340 impression; có nhu cầu hành lý gắn với Malindo, chưa có route chuyên biệt tương đương nên giữ URL."
+/dich-vu-nang-hang-ve-hang-china-eastern-airlines,remap_existing,/nang-hang-ve-china-eastern,"15 click, 1.496 impression; truy vấn xoay quanh đổi vé, hành lý và đại lý China Eastern, route hãng hợp lệ gần nhất."
+/mua-them-hanh-ly-bamboo-airways,keep_existing,/mua-them-hanh-ly-bamboo-airways,"14 click, 4.442 impression; truy vấn hành lý Bamboo rất rõ và target hiện tại là route chuyên biệt hợp lệ."
+/doi-ve-may-bay-hongkong-airlines,remap_existing,/doi-ngay-ve-hong-kong-airlines,"14 click, 1.007 impression; intent đổi lịch/đổi vé Hong Kong Airlines khớp route chuyên biệt hợp lệ."
+/doi-ve-may-bay-xiamen-airlines,remap_existing,/doi-ngay-ve-xiamenair,"14 click, 791 impression; truy vấn vé và quản lý đặt chỗ Xiamen Airlines, route chuyên biệt hợp lệ."

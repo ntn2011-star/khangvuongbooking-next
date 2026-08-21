@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/ve-may-bay-di-dai-bac-gia-re,retire_low_value,/tag/ve-may-bay-di-dai-bac-gia-re,"Tag mỏng, 0 click và chỉ 2 impression; không có truy vấn/intent hữu ích để giữ hoặc chuyển hướng."
+/tag/ve-may-bay-thai-airways-gia-re,retire_low_value,/tag/ve-may-bay-thai-airways-gia-re,"Tag mỏng, 0 click và chỉ 2 impression; không có truy vấn/intent hữu ích để giữ hoặc chuyển hướng."
+/bamboo-airways-giam-gia-ve-may-bay-tet-duong-lich-2023-theo-nhom,create_specific_landing,/bamboo-airways-giam-gia-ve-may-bay-tet-duong-lich-2023-theo-nhom,"Intent khuyến mãi theo hãng/chương trình cụ thể; route /khuyen-mai không tương đương, nên giữ URL để xây nội dung riêng."
+/dai-loan-mien-visa-cho-viet-nam-tu-thang-9,create_specific_landing,/dai-loan-mien-visa-cho-viet-nam-tu-thang-9,"Nhu cầu visa theo quốc gia/thời điểm cụ thể; 0 click nhưng có impression, chưa có route tương đương nên giữ URL để xây landing riêng."
+/giam-10-gia-ve-may-bay-bamboo-airways-di-dong-bac-a,create_specific_landing,/giam-10-gia-ve-may-bay-bamboo-airways-di-dong-bac-a,"Intent khuyến mãi theo hãng/chương trình cụ thể; route /khuyen-mai không tương đương, nên giữ URL để xây nội dung riêng."
+/air-asia-tung-ve-sieu-re-chi-tu-4-usd-bay-khap-gioi,create_specific_landing,/air-asia-tung-ve-sieu-re-chi-tu-4-usd-bay-khap-gioi,"Intent khuyến mãi theo hãng/chương trình cụ thể; route /khuyen-mai không tương đương, nên giữ URL để xây nội dung riêng."
+/san-1-trieu-ve-vietjet-air-chi-tu-0-dong-bay-tha-ga-khap-nuoc-ta,create_specific_landing,/san-1-trieu-ve-vietjet-air-chi-tu-0-dong-bay-tha-ga-khap-nuoc-ta,"Intent khuyến mãi theo hãng/chương trình cụ thể; route /khuyen-mai không tương đương, nên giữ URL để xây nội dung riêng."
+/tag/ve-may-bay-gia-re-cua-scoot,retire_low_value,/tag/ve-may-bay-gia-re-cua-scoot,"Tag mỏng, 0 click và chỉ 2 impression; không có truy vấn/intent hữu ích để giữ hoặc chuyển hướng."
+/tag/ve-may-bay-tphcm-di-seoul,retire_low_value,/tag/ve-may-bay-tphcm-di-seoul,"Tag mỏng, 0 click và chỉ 2 impression; không có truy vấn/intent hữu ích để giữ hoặc chuyển hướng."
+/ve-may-bay-di-london-gia-re,create_specific_landing,/ve-may-bay-di-london-gia-re,"Intent tìm vé theo tuyến/điểm đến cụ thể; route /ve-may-bay quá rộng, nên giữ URL để xây landing đúng nhu cầu."
+/ve-may-bay-di-pleiku,create_specific_landing,/ve-may-bay-di-pleiku,"Intent tìm vé theo tuyến/điểm đến cụ thể; route /ve-may-bay quá rộng, nên giữ URL để xây landing đúng nhu cầu."
+/vietnam-airlines-khuyen-mai-chi-299-000-vnd-don-he-ruc-ro,create_specific_landing,/vietnam-airlines-khuyen-mai-chi-299-000-vnd-don-he-ruc-ro,"Intent khuyến mãi theo hãng/chương trình cụ thể; route /khuyen-mai không tương đương, nên giữ URL để xây nội dung riêng."

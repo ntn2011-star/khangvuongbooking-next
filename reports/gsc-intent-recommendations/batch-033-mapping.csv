@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/lam-sao-de-co-chuyen-du-lich-xuat-ngoai-tu-tuc-an-toan,create_specific_landing,/lam-sao-de-co-chuyen-du-lich-xuat-ngoai-tu-tuc-an-toan,"Có intent hướng dẫn du lịch xuất ngoại tự túc; route tương đương chưa có, giữ URL để xây nội dung cụ thể."
+/bay-chau-au-ve-qatar-airways-tiet-kiem-den-10-khi-dat-phong-qua-smartphone,create_specific_landing,/bay-chau-au-ve-qatar-airways-tiet-kiem-den-10-khi-dat-phong-qua-smartphone,"Intent ưu đãi Qatar Airways bay châu Âu rất cụ thể; chưa có route tương đương, giữ URL tạo landing."
+/tag/ve-may-bay-qatar-airways-gia-re,retire_low_value,/tag/ve-may-bay-qatar-airways-gia-re,"Tag mỏng không click, chỉ 7 impression và không có truy vấn; không chuyển file tag sang trang nội dung."
+/uu-dai-ve-qatar-giam-sau-chi-tu-4200000d-de-dang-bay-khap-chau-au,create_specific_landing,/uu-dai-ve-qatar-giam-sau-chi-tu-4200000d-de-dang-bay-khap-chau-au,Intent khuyến mãi Qatar bay châu Âu cụ thể; chưa có route tương đương nên giữ URL xây landing.
+/tag/cebu-km-ve-di-manila-tu-65-usd,retire_low_value,/tag/cebu-km-ve-di-manila-tu-65-usd,Tag mỏng không click; một truy vấn thương hiệu chưa đủ chứng minh giá trị chuyển hướng.
+/emirates-uu-dai-khung-bay-khap-the-gioi-voi-ve-khu-hoi-chi-tu-12275000d,create_specific_landing,/emirates-uu-dai-khung-bay-khap-the-gioi-voi-ve-khu-hoi-chi-tu-12275000d,"Intent ưu đãi Emirates và vé khứ hồi cụ thể; chưa có route tương đương, giữ URL tạo nội dung."
+/tag/ve-may-bay-di-uc-gia-re,retire_low_value,/tag/ve-may-bay-di-uc-gia-re,Tag mỏng không click và không có truy vấn; không có lý do giữ redirect sang hub chung.
+/tag/ve-vietjet-air-0-dong,retire_low_value,/tag/ve-vietjet-air-0-dong,Tag mỏng không click và không có truy vấn; không redirect file tag sang trang nội dung.
+/vietjet-air-tung-15-000-ve-0-dong-nhan-dip-khai-truong-nha-ga-cat-bi,create_specific_landing,/vietjet-air-tung-15-000-ve-0-dong-nhan-dip-khai-truong-nha-ga-cat-bi,"Intent khuyến mãi Vietjet gắn Cát Bi; top query có tuyến bay cụ thể, chưa có route tương đương."
+/tag/nhung-quy-dinh-ba-bau-di-may-bay-jetstar,retire_low_value,/tag/nhung-quy-dinh-ba-bau-di-may-bay-jetstar,Tag mỏng không click; truy vấn tiếng Anh đơn lẻ không đủ để chuyển hướng.
+/bamboo-airways-tang-suat-an-15-usd-cho-hanh-khach-bay-noi-chuyen,create_specific_landing,/bamboo-airways-tang-suat-an-15-usd-cho-hanh-khach-bay-noi-chuyen,"Intent ưu đãi suất ăn Bamboo trên chuyến nội địa; chưa có route tương đương, giữ URL xây landing."
+/khuyen-mai-mid-night-sales-vietnam-airlines-giam-20-gia-ve,create_specific_landing,/khuyen-mai-mid-night-sales-vietnam-airlines-giam-20-gia-ve,"Intent khuyến mãi Midnight Sales của Vietnam Airlines; route khuyến mãi chung không tương đương, giữ URL cụ thể."

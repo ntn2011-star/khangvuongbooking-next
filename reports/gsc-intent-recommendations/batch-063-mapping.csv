@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/chi-tu-704-usd-khu-hoi-sieu-khuyen-mai-etihad-di-chau-au,create_specific_landing,/chi-tu-704-usd-khu-hoi-sieu-khuyen-mai-etihad-di-chau-au,"Nhu cầu cụ thể về Etihad và tuyến châu Âu; chỉ 1 impression, chưa có route tương đương nên giữ URL để tạo landing riêng."
+/du-lich-philippines-tiet-kiem-nhat-voi-ve-cebu-den-manila-tu-70-usd,create_specific_landing,/du-lich-philippines-tiet-kiem-nhat-voi-ve-cebu-den-manila-tu-70-usd,"Nhu cầu cụ thể Cebu–Manila và giá vé; chỉ 1 impression, không có route tương đương nên giữ URL tạo landing riêng."
+/du-lich-thai-thoai-mai-cung-nok-air-nhan-uu-dai-giam-ngay-50-gia-hanh-trinh-bay-krabi,create_specific_landing,/du-lich-thai-thoai-mai-cung-nok-air-nhan-uu-dai-giam-ngay-50-gia-hanh-trinh-bay-krabi,"Nhu cầu cụ thể Nok Air/đường bay Krabi; chỉ 1 impression, không có route tương đương nên giữ URL tạo landing riêng."
+/etihad-khuyen-mai-cuoi-tuan-ve-dac-biet-chi-tu-836-usd-cuc-re,create_specific_landing,/etihad-khuyen-mai-cuoi-tuan-ve-dac-biet-chi-tu-836-usd-cuc-re,"Nhu cầu cụ thể khuyến mãi Etihad; chỉ 1 impression, không có route tương đương nên giữ URL tạo landing riêng."
+/khuyen-mai-ve-0-dong-jetstar-chieu-ve-cuc-soc,create_specific_landing,/khuyen-mai-ve-0-dong-jetstar-chieu-ve-cuc-soc,"Nhu cầu cụ thể vé Jetstar 0 đồng; chỉ 1 impression, không có route tương đương nên giữ URL tạo landing riêng."
+/korean-air-uu-dai-ve-khu-hoi-sieu-re-chi-tu-438-usd-bay-khap-gioi,create_specific_landing,/korean-air-uu-dai-ve-khu-hoi-sieu-re-chi-tu-438-usd-bay-khap-gioi,"Nhu cầu cụ thể ưu đãi Korean Air; chỉ 1 impression, không có route tương đương nên giữ URL tạo landing riêng."
+/tag/5-ngay-vang-thang-11,retire_low_value,/tag/5-ngay-vang-thang-11,"Tag mỏng, không có click và chỉ 1 impression; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/cach-tranh-met-moi-khi-di-may-baym,retire_low_value,/tag/cach-tranh-met-moi-khi-di-may-baym,"Tag mỏng, không có click và chỉ 1 impression; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/cuoi-tuan-sieu-khuyen-mai-jetstar,retire_low_value,/tag/cuoi-tuan-sieu-khuyen-mai-jetstar,"Tag mỏng, không có click và chỉ 1 impression; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/san-ve-may-bay-gia-re-cua-air-asia,retire_low_value,/tag/san-ve-may-bay-gia-re-cua-air-asia,"Tag mỏng, không có click và chỉ 1 impression; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/ve-11k-cua-jetstar,retire_low_value,/tag/ve-11k-cua-jetstar,"Tag mỏng, không có click và chỉ 1 impression; không có intent đủ rõ để giữ hoặc chuyển hướng."
+/tag/ve-may-bay-abu-dhabi-gia-re,retire_low_value,/tag/ve-may-bay-abu-dhabi-gia-re,"Tag mỏng, không có click và chỉ 1 impression; không có intent đủ rõ để giữ hoặc chuyển hướng."

@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/huong-dan-xin-visa-thuong-mai-cong-tac-trung-quoc,create_specific_landing,/huong-dan-xin-visa-thuong-mai-cong-tac-trung-quoc,"Intent visa thương mại/công tác Trung Quốc cụ thể; route /visa quá rộng, giữ URL để phát triển nội dung."
+/doi-ve-may-bay-american-airlines,create_specific_landing,/doi-ve-may-bay-american-airlines,"Nhu cầu đổi vé gắn với American Airlines; dữ liệu truy vấn còn thiên về hãng, chưa có route đích tương đương."
+/cach-xu-ly-hanh-ly-den-cham-hu-hong-lac-cua-vietnam-airlines,create_specific_landing,/cach-xu-ly-hanh-ly-den-cham-hu-hong-lac-cua-vietnam-airlines,"Intent xử lý hành lý thất lạc/hư hỏng của Vietnam Airlines, khác dịch vụ mua thêm hành lý hiện tại."
+/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-houston-my,create_specific_landing,/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-houston-my,"Nhu cầu vé cho thú cưng theo tuyến Houston; /ve-thu-cung là hub, chưa tương đương tuyến cụ thể."
+/doi-ve-may-bay-klm,create_specific_landing,/doi-ve-may-bay-klm,Có 4.437 impression và truy vấn nhận diện/đánh giá KLM; /doi-ngay-ve không tương đương intent theo hãng.
+/dich-vu-nang-hang-ve-china-airlines-tai-ho-chi-minh-ha-noi,remap_existing,/nang-hang-ve-china-airlines,Route đích hợp lệ và cùng intent nâng hạng vé China Airlines theo địa điểm nêu trong URL.
+/doi-ve-may-bay-china-airlines-di-san-francisco,remap_existing,/doi-ngay-ve-china-airlines,"Cùng intent đổi vé China Airlines; route đích hợp lệ, giữ được nhu cầu theo hãng dù tuyến cụ thể hơn."
+/mua-them-hanh-ly-s7-airlines,create_specific_landing,/mua-them-hanh-ly-s7-airlines,"Nhu cầu mua thêm hành lý theo S7 Airlines; /mua-them-hanh-ly là hub, không có route hãng tương đương."
+/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-atlanta-my,create_specific_landing,/dich-vu-dat-ve-may-bay-cho-thu-cung-cho-meo-di-atlanta-my,"Nhu cầu vé cho thú cưng theo tuyến Atlanta; chưa có route đích tương đương, cần giữ URL để tạo landing page."
+/xin-visa-du-hoc-trung-quoc-can-nhung-gi,create_specific_landing,/xin-visa-du-hoc-trung-quoc-can-nhung-gi,"Intent visa du học Trung Quốc/X1-X2 cụ thể; /visa quá rộng, giữ URL để không mất từ khóa."
+/doi-ve-may-bay-british-airways,create_specific_landing,/doi-ve-may-bay-british-airways,"Truy vấn chủ yếu nhận diện/đánh giá British Airways, không khớp đủ với /doi-ngay-ve; giữ URL theo hãng."
+/doi-ve-may-bay-malindo-air,create_specific_landing,/doi-ve-may-bay-malindo-air,"Truy vấn tập trung check-in Malindo Air, không tương đương route đổi vé chung; giữ URL để phát triển nội dung theo hãng."

@@ -1,0 +1,86 @@
+[
+  {
+    "source_path": "/doi-ve-may-bay-lao-airlines",
+    "clicks": 14,
+    "impressions": 425,
+    "top_queries": "site:khangvuongbooking.com | lao airlines check in online",
+    "current_target": "/doi-ngay-ve"
+  },
+  {
+    "source_path": "/doi-ve-may-bay-vietjet-air",
+    "clicks": 13,
+    "impressions": 6895,
+    "top_queries": "đổi vé máy bay vietjet | phí đổi vé vietjet | đổi vé vietjet | cách đổi vé máy bay vietjet | đổi chuyến bay vietjet",
+    "current_target": "/doi-ngay-ve-vietjet-air"
+  },
+  {
+    "source_path": "/doi-ve-may-bay-vietnam-airlines",
+    "clicks": 12,
+    "impressions": 3303,
+    "top_queries": "doi ve vietnam airlines | đổi vé máy bay vietnam airlines | đổi vé máy bay vietnam airline | cách đổi vé máy bay vietnam airlines | đổi vé máy bay",
+    "current_target": "/doi-ngay-ve-vietnam-airlines"
+  },
+  {
+    "source_path": "/thong-tin-nang-hang-the-va-gia-han-the-hoi-vien-eva-air",
+    "clicks": 12,
+    "impressions": 1795,
+    "top_queries": "doi ngay eva air | nâng hạng vé máy bay eva air | site:khangvuongbooking.com | \"eva air\" | eva air milelion",
+    "current_target": "/nang-hang-ve-eva-air"
+  },
+  {
+    "source_path": "/doi-ve-may-bay-tway-air",
+    "clicks": 12,
+    "impressions": 874,
+    "top_queries": "t'way air | vé t | t way | tway | tway booking",
+    "current_target": "/doi-ngay-ve"
+  },
+  {
+    "source_path": "/mua-them-hanh-ly-thai-lion-air",
+    "clicks": 12,
+    "impressions": 517,
+    "top_queries": "hành lý 187",
+    "current_target": "/mua-them-hanh-ly"
+  },
+  {
+    "source_path": "/doi-ve-may-bay-aeroflot",
+    "clicks": 11,
+    "impressions": 871,
+    "top_queries": "phòng vé aeroflot | đại lý aeroflot | dai ly aeroflot | văn phòng aeroflot | aeroflot đánh giá",
+    "current_target": "/doi-ngay-ve"
+  },
+  {
+    "source_path": "/doi-ve-may-bay-asiana-airlines",
+    "clicks": 9,
+    "impressions": 729,
+    "top_queries": "hãng asiana | site:khangvuongbooking.com",
+    "current_target": "/doi-ngay-ve"
+  },
+  {
+    "source_path": "/mua-them-hanh-ly-nok-air",
+    "clicks": 9,
+    "impressions": 386,
+    "top_queries": "nok l | cách mua thêm hành lý | nok lite",
+    "current_target": "/mua-them-hanh-ly"
+  },
+  {
+    "source_path": "/kinh-nghiem-thu-tuc-xin-visa-trung-quoc",
+    "clicks": 8,
+    "impressions": 4091,
+    "top_queries": "visa trung quốc | xin visa trung quốc | thủ tục xin visa trung quốc | làm visa trung quốc | cách xin visa trung quốc",
+    "current_target": "/visa"
+  },
+  {
+    "source_path": "/starlux-airlines-tang-them-1-kien-hanh-ly-ky-gui-di-my",
+    "clicks": 7,
+    "impressions": 262,
+    "top_queries": "starlux airlines hành lý ký gửi | mua hanh ly starux airlines | site:khangvuongbooking.com | du hoc | starlux airlines",
+    "current_target": "/mua-them-hanh-ly-starlux-airlines"
+  },
+  {
+    "source_path": "/mua-them-hanh-ly-iraero-airlines",
+    "clicks": 7,
+    "impressions": 138,
+    "top_queries": "site:khangvuongbooking.com",
+    "current_target": "/mua-them-hanh-ly"
+  }
+]

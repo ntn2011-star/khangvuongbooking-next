@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/tag/ve-may-bay-vietjet,retire_low_value,/tag/ve-may-bay-vietjet,"Tag mỏng, chỉ 1 impression và không có click; không có truy vấn cho thấy giá trị intent riêng."
+/tan-huong-chuyen-nghi-mat-khap-chau-au-cung-ve-qatar-giam-30-cuc-uu-dai,create_specific_landing,/tan-huong-chuyen-nghi-mat-khap-chau-au-cung-ve-qatar-giam-30-cuc-uu-dai,"Bài khuyến mãi Qatar gắn nhu cầu du lịch châu Âu cụ thể; chưa có route tương đương, nên giữ URL để xây landing."
+/dai-khuyen-mai-3-ngay-vang-bay-khap-viet-nam-voi-ve-0-dong-cua-vietjet-air,create_specific_landing,/dai-khuyen-mai-3-ngay-vang-bay-khap-viet-nam-voi-ve-0-dong-cua-vietjet-air,"Khuyến mãi Vietjet và vé 0 đồng là intent chiến dịch cụ thể; không thay bằng hub khuyến mãi chung."
+/dat-mua-ve-may-bay-air-china-di-washington,create_specific_landing,/dat-mua-ve-may-bay-air-china-di-washington,"Nhu cầu đặt vé theo hãng và tuyến Washington cụ thể; route hợp lệ tương đương chưa có, cần giữ URL để tạo landing."
+/khuyen-mai-night-sales-vietnam-airlines-giam-50-gia-ve-noi-dia,create_specific_landing,/khuyen-mai-night-sales-vietnam-airlines-giam-50-gia-ve-noi-dia,"Night Sales Vietnam Airlines giảm 50% là intent ưu đãi cụ thể; redirect về hub sẽ làm mất ngữ nghĩa tìm kiếm."
+/sung-so-ve-malindo-air-uu-dai-bat-ngo-gia-cuc-soc-chi-tu-49-usd,create_specific_landing,/sung-so-ve-malindo-air-uu-dai-bat-ngo-gia-cuc-soc-chi-tu-49-usd,"Ưu đãi Malindo Air với mức giá cụ thể là chủ đề riêng; chưa có route tương đương để remap an toàn."
+/tag/chuong-trinh-km-cua-qatar-airwqays,retire_low_value,/tag/chuong-trinh-km-cua-qatar-airwqays,"Tag lỗi chính tả, chỉ 1 impression và không có click; không đủ tín hiệu để duy trì như trang intent."
+/tag/mua-ve-may-bay-di-dai-loan-khu-hoi,retire_low_value,/tag/mua-ve-may-bay-di-dai-loan-khu-hoi,"Tag mỏng không click, không có truy vấn hỗ trợ giá trị riêng; không redirect tag sang hub vé máy bay."
+/tag/ve-may-bay-di-melbourne-gia-re,retire_low_value,/tag/ve-may-bay-di-melbourne-gia-re,"Tag mỏng chỉ có 1 impression và không click; chưa có tín hiệu đủ mạnh để giữ một landing riêng."
+/quy-dinh-va-hinh-thuc-thanh-toan,remap_existing,/cam-nang-bay,"Intent hướng dẫn quy định và thanh toán phù hợp với hub cẩm nang bay hợp lệ; dữ liệu chỉ 1 impression, không cần tạo URL mới."
+/tag/book-ve-may-bay-di-dai-loan,retire_low_value,/tag/book-ve-may-bay-di-dai-loan,"Tag mỏng không click và trùng intent vé máy bay chung; giữ tag không tạo thêm giá trị SEO riêng."
+/tag/quy-dinh-tre-em-di-may-bay-vietjet-air-ban-can-biet,retire_low_value,/tag/quy-dinh-tre-em-di-may-bay-vietjet-air-ban-can-biet,"Tag mỏng không click; dù có chủ đề trẻ em/Vietjet, dạng tag không phải route nội dung tương đương để redirect an toàn."

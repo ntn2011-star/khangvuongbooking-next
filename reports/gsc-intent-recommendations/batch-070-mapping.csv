@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/mua-ve-may-bay-vietnam-airlines-khong-hanh-ly-chi-tu-99-000-vnd,create_specific_landing,/mua-ve-may-bay-vietnam-airlines-khong-hanh-ly-chi-tu-99-000-vnd,"Nhu cầu giá Vietnam Airlines không hành lý rất cụ thể; route đích hiện tại lệch intent, nên giữ URL để xây landing riêng."
+/sau-ngay-01-04-cac-hang-hang-khong-dong-loat-tang-gia-ve,create_specific_landing,/sau-ngay-01-04-cac-hang-hang-khong-dong-loat-tang-gia-ve,"Bài cập nhật tăng giá vé theo thời điểm; route /hang-bay là hub lệch intent, nên giữ URL và tạo nội dung chuyên biệt."
+/sieu-khuyen-mai-sieu-giam-gia-bay-khap-chau-a-cung-jetstar-voi-ve-may-bay-chi-tu-88-000d,create_specific_landing,/sieu-khuyen-mai-sieu-giam-gia-bay-khap-chau-a-cung-jetstar-voi-ve-may-bay-chi-tu-88-000d,"Khuyến mãi Jetstar và tuyến châu Á là intent cụ thể; /khuyen-mai không tương đương đủ, nên giữ URL tạo landing."
+/tag/chuong-trinh-khuyen-mai-vietnam-airlines,retire_low_value,/tag/chuong-trinh-khuyen-mai-vietnam-airlines,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/gia-ve-may-bay-di-duc-bao-nhieu-tien,retire_low_value,/tag/gia-ve-may-bay-di-duc-bao-nhieu-tien,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/khuyen-mai-china-southern-airlines,retire_low_value,/tag/khuyen-mai-china-southern-airlines,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/khuyen-mai-jetstar,retire_low_value,/tag/khuyen-mai-jetstar,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/malindo-air,retire_low_value,/tag/malindo-air,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/ve-may-bay-di-siem-reap-gia-re,retire_low_value,/tag/ve-may-bay-di-siem-reap-gia-re,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/ve-may-bay-di-vieng-chan,retire_low_value,/tag/ve-may-bay-di-vieng-chan,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/tag/ve-may-bay-tiger-air-gia-re,retire_low_value,/tag/ve-may-bay-tiger-air-gia-re,"Tag mỏng, chỉ 1 impression và 0 click; không có tín hiệu intent đủ mạnh để giữ hoặc redirect."
+/ve-emirates-uu-dai-khu-hoi-bay-dubai-chau-au-chi-tu-17169000d-sieu-tiet-kiem,create_specific_landing,/ve-emirates-uu-dai-khu-hoi-bay-dubai-chau-au-chi-tu-17169000d-sieu-tiet-kiem,"Ưu đãi Emirates khứ hồi Dubai–châu Âu là nhu cầu cụ thể; chưa có route tương đương, nên giữ URL tạo landing."

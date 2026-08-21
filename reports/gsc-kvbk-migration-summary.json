@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-08-20T09:11:02.577Z",
+  "total": 1604,
+  "totalClicks": 14369,
+  "totalImpressions": 1329302,
+  "decisions": {
+    "create_specific_landing": {
+      "urls": 1055,
+      "clicks": 5849,
+      "impressions": 570010
+    },
+    "keep_existing": {
+      "urls": 141,
+      "clicks": 5425,
+      "impressions": 371141
+    },
+    "remap_existing": {
+      "urls": 134,
+      "clicks": 3094,
+      "impressions": 317698
+    },
+    "retain_asset": {
+      "urls": 22,
+      "clicks": 0,
+      "impressions": 164
+    },
+    "retire_low_value": {
+      "urls": 252,
+      "clicks": 1,
+      "impressions": 70289
+    }
+  },
+  "remapValidation": {
+    "generated": 134,
+    "rejected": 0,
+    "invalid": []
+  },
+  "prerenderedRoutes": 3600
+}

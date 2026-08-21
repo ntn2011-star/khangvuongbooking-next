@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/ve-may-bay-thai-airways,remap_existing,/ve-tu-quoc-gia-ve-viet-nam-thai-airways,"Intent vé theo hãng Thai Airways; route đích hợp lệ và cùng nhu cầu vé máy bay theo hãng."
+/nem-thu-mon-an-chay-tai-4-nha-hang-thanh-tinh-giua-long-ha-noi,create_specific_landing,/nem-thu-mon-an-chay-tai-4-nha-hang-thanh-tinh-giua-long-ha-noi,"Bài viết ẩm thực Hà Nội, truy vấn tập trung Ưu Đàm; không tương đương với hub hãng bay."
+/nhung-nuoc-nguoi-viet-duoc-tu-do-du-lich-khong-can-visa,remap_existing,/visa,"Intent hướng dẫn các nước miễn visa cho người Việt; route /visa là hub visa hợp lệ gần nhất."
+/khuyen-mai/page/131,retire_low_value,/khuyen-mai,"Trang phân trang sâu, chỉ có truy vấn site và không có click; không giữ giá trị intent độc lập."
+/han-quoc-chuan-bi-cap-visa-dien-tu-cho-du-khach-viet-nam,create_specific_landing,/han-quoc-chuan-bi-cap-visa-dien-tu-cho-du-khach-viet-nam,"Tin và hướng dẫn e-visa Hàn Quốc là nhu cầu quốc gia cụ thể; chưa có route tương đương."
+/meo-giup-ban-tranh-duoc-viec-lac-hanh-ly-khi-di-may-bay,create_specific_landing,/meo-giup-ban-tranh-duoc-viec-lac-hanh-ly-khi-di-may-bay,"Hướng dẫn tránh thất lạc hành lý là intent thông tin riêng; không chuyển sang dịch vụ mua thêm hành lý."
+/ngay-trung-thang-7-vietnam-airlines-khuyen-mai-ve-may-bay-chi-77k,create_specific_landing,/ngay-trung-thang-7-vietnam-airlines-khuyen-mai-ve-may-bay-chi-77k,"Khuyến mại Vietnam Airlines theo thời điểm và mức giá cụ thể; chưa có landing tương đương."
+/tag/vietjet-air-km-ve-may-bay-di-thai-lan-gia-re,retire_low_value,/tag/vietjet-air-km-ve-may-bay-di-thai-lan-gia-re,"URL tag mỏng, không có click và không có truy vấn cụ thể; không redirect tag sang hub chung."
+/di-uc-de-dang-voi-ve-singapore-airlines-khu-hoi-chi-tu-674-usd,create_specific_landing,/di-uc-de-dang-voi-ve-singapore-airlines-khu-hoi-chi-tu-674-usd,"Nhu cầu tuyến đi Úc, hãng Singapore Airlines và vé khứ hồi cụ thể; chưa có route tương đương."
+/quy-dinh-moi-nhat-ve-hoan-doi-ve-may-bay-vietnam-airrlines,create_specific_landing,/quy-dinh-moi-nhat-ve-hoan-doi-ve-may-bay-vietnam-airrlines,"Hướng dẫn hoàn đổi vé gắn với Vietnam Airlines; route dịch vụ chung không đủ tương đương."
+/bamboo-airways-khuyen-mai-ve-may-bay-cho-khach-doan,create_specific_landing,/bamboo-airways-khuyen-mai-ve-may-bay-cho-khach-doan,"Intent đặt vé đoàn và khuyến mại Bamboo Airways; chưa có route đích chuyên biệt hợp lệ."
+/tag/ve-vietnam-airlines,retire_low_value,/tag/ve-vietnam-airlines,"URL tag mỏng, không có click; truy vấn chủ yếu site/thương hiệu và không cần landing tag riêng."

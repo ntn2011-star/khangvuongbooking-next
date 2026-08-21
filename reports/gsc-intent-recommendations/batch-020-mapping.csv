@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/mua-them-hanh-ly-jet-airways,create_specific_landing,/mua-them-hanh-ly-jet-airways,Nhu cầu mua thêm hành lý theo hãng Jet Airways; chưa có route tương đương nên giữ URL để tạo landing chuyên biệt.
+/cebu-pacific-uu-dai-tuan-moi-bay-khap-the-gioi-chi-tu-59-usd,create_specific_landing,/cebu-pacific-uu-dai-tuan-moi-bay-khap-the-gioi-chi-tu-59-usd,Intent ưu đãi và phòng vé Cebu Pacific rõ; route khuyến mãi chung không bao quát nhu cầu hãng cụ thể.
+/dat-mua-ve-may-bay-china-airlines-di-chicago,create_specific_landing,/dat-mua-ve-may-bay-china-airlines-di-chicago,Intent mua vé China Airlines đi Chicago rất cụ thể; route tương đương chưa hợp lệ nên giữ URL để tạo landing.
+/vietnam-airlines-mien-phi-nang-hang-cho-ve-pho-thong,remap_existing,/nang-hang-ve-vietnam-airlines,Truy vấn tập trung vào nâng hạng vé Vietnam Airlines; route đích hợp lệ có cùng intent dịch vụ.
+/vietjet-khuyen-mai-20kg-hanh-ly-ky-gui-mien-phi-dai-loan,create_specific_landing,/vietjet-khuyen-mai-20kg-hanh-ly-ky-gui-mien-phi-dai-loan,Nhu cầu ưu đãi hành lý ký gửi Vietjet tại Đài Loan rất cụ thể; không có route tương đương để remap.
+/dat-ve-may-bay-di-duc-bamboo-airways-gia-tu-4-252-000d,create_specific_landing,/dat-ve-may-bay-di-duc-bamboo-airways-gia-tu-4-252-000d,Intent mua vé Bamboo Airways đi Đức và mức giá cụ thể; chưa có landing cùng tuyến để chuyển hướng.
+/hap-dan-ve-air-asia-bay-ngay-cuoi-nam-gia-chi-tu-3-usd,create_specific_landing,/hap-dan-ve-air-asia-bay-ngay-cuoi-nam-gia-chi-tu-3-usd,Bài ưu đãi AirAsia cuối năm có nhu cầu hãng và thời điểm cụ thể; hub cẩm nang không tương đương.
+/cung-air-asia-san-ve-bay-khap-gioi-voi-gia-chi-tu-6-usd-sieu-re,create_specific_landing,/cung-air-asia-san-ve-bay-khap-gioi-voi-gia-chi-tu-6-usd-sieu-re,Intent săn vé AirAsia giá rẻ theo hãng; chưa có route ưu đãi AirAsia tương đương để remap.
+/bay-viet-nam-thai-lan-vietjet-air-giam-ngay-50-ve-noi-dia-thai,create_specific_landing,/bay-viet-nam-thai-lan-vietjet-air-giam-ngay-50-ve-noi-dia-thai,Nhu cầu tuyến Việt Nam–Thái Lan và khuyến mãi Vietjet cụ thể; chưa có route đích tương đương.
+/ve-may-bay-vietnam-airlines,create_specific_landing,/ve-may-bay-vietnam-airlines,Intent vé máy bay Vietnam Airlines theo hãng rõ ràng; chưa có route hợp lệ tương đương nên giữ URL để tạo landing.
+/tag/san-ve-may-bay-gia-re-cua-qatar-airways,retire_low_value,/tag/san-ve-may-bay-gia-re-cua-qatar-airways,"Tag mỏng, không click, truy vấn chủ yếu site và Doha; không có intent đủ rõ để duy trì hoặc chuyển hướng."
+/khuyen-mai/page/110,retire_low_value,/khuyen-mai/page/110,"Trang phân trang cũ không click, impression thấp và không chứa intent riêng; loại bỏ để tránh giữ archive mỏng."

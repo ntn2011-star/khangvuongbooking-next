@@ -1,0 +1,13 @@
+source_path,recommendation_type,recommended_target_or_slug,rationale
+/thong-tin-quy-dinh-hanh-ly-dac-biet-vietnam-airlines,create_specific_landing,/thong-tin-quy-dinh-hanh-ly-dac-biet-vietnam-airlines,"Nhu cầu cụ thể về quy định hành lý Vietnam Airlines; route hiện tại là mua thêm hành lý, không tương đương." 
+/cach-xin-visa-du-lich-phap-de-dang,create_specific_landing,/cach-xin-visa-du-lich-phap-de-dang,"Nhu cầu hướng dẫn xin visa du lịch Pháp; /visa không phải nội dung tương đương và chưa có route cụ thể." 
+/tag/ve-may-bay-di-thai-lan-gia-re-cua-nok-air,retire_low_value,/tag/ve-may-bay-di-thai-lan-gia-re-cua-nok-air,"Tag mỏng, 0 click và chỉ 3 impression; chưa có tín hiệu đủ mạnh để giữ một landing riêng." 
+/tag/vietnam-airlines-km-ve-di-uc-chi-tu-700-usd,retire_low_value,/tag/vietnam-airlines-km-ve-di-uc-chi-tu-700-usd,"Tag khuyến mãi mỏng, 0 click và 3 impression; không nên chuyển về hub hãng bay chung." 
+/uu-dai-tu-jetstar-gia-ve-mot-chieu-chi-tu-49-000-vnd,create_specific_landing,/uu-dai-tu-jetstar-gia-ve-mot-chieu-chi-tu-49-000-vnd,"Nhu cầu cụ thể về ưu đãi Jetstar và vé một chiều; /khuyen-mai không giữ đủ intent chi tiết." 
+/bamboo-airways-uu-dai-ve-may-bay-di-uc-gia-3-694-000d,create_specific_landing,/bamboo-airways-uu-dai-ve-may-bay-di-uc-gia-3-694-000d,"Nhu cầu cụ thể Bamboo Airways đi Úc và mức giá; hub khuyến mãi không tương đương đầy đủ." 
+/bung-tinh-voi-sieu-km-ve-tu-319-usd-bay-seoul-han-quoc-cuoi-nam-cung-korean-air,create_specific_landing,/bung-tinh-voi-sieu-km-ve-tu-319-usd-bay-seoul-han-quoc-cuoi-nam-cung-korean-air,"Nhu cầu cụ thể Korean Air, Seoul và ưu đãi theo thời điểm; chưa có route tương đương để remap." 
+/luu-y-ve-suc-khoe-khi-di-may-bay-ma-ban-can-chu-y,create_specific_landing,/luu-y-ve-suc-khoe-khi-di-may-bay-ma-ban-can-chu-y,"Nhu cầu hướng dẫn sức khỏe khi bay; /cam-nang-bay là hub rộng, không thay thế nội dung chuyên biệt." 
+/tag/cebu-pacific-km-ve-di-tagbilaran-gia-re,retire_low_value,/tag/cebu-pacific-km-ve-di-tagbilaran-gia-re,"Tag mỏng về Cebu Pacific, 0 click và 3 impression; không có route đích cụ thể tương đương." 
+/tag/dat-ve-may-bay-di-nha-trang,retire_low_value,/tag/dat-ve-may-bay-di-nha-trang,"Tag mỏng, 0 click và 3 impression; chưa đủ tín hiệu để duy trì URL hoặc chuyển về hub vé máy bay." 
+/tag/ve-may-bay-malindo-air-gia-re,retire_low_value,/tag/ve-may-bay-malindo-air-gia-re,"Tag mỏng về hãng bay, 0 click và 3 impression; không nên redirect sang hub chung." 
+/tag/ve-may-bay-nok-air-bao-nhieu-tien,retire_low_value,/tag/ve-may-bay-nok-air-bao-nhieu-tien,"Tag mỏng về giá vé Nok Air, 0 click và 3 impression; chưa có intent đủ rõ để giữ landing riêng." 
